@@ -8,7 +8,7 @@ description: Build the weekly issue of "The Current Regime" — read the week's 
 A weekly newsletter that reads what the world is paying attention to and names the
 **regimes** organizing it, then tracks how those regimes change. Audience:
 developers and professionals. Design reference: bwang.io/elekid (serif, forest
-green `#1a7f4b`). Repo: github.com/sooflee/magikarp. Archive: www.bwang.io/magikarp.
+green `#1a7f4b`). Repo: github.com/sooflee/newsletter. Archive: www.bwang.io/newsletter.
 
 **Everything is data-driven.** You author one issue object in `regime_state.json`;
 `send_regime_email.py` (HTML + plain text) and `build_site.py` (the archive) both
@@ -360,6 +360,10 @@ index_title   # 17-22 words, hard max 24: ONE clause, ONE fact, e.g. "The ten-ye
               # costs across the US and Australia." Carry the trend in a participle or
               # appositive, never a second story joined with "as". No colon, no more
               # than one "and". Every title must open differently from earlier issues.
+dek           # the standfirst under that title on the homepage: one sentence, 18-28
+              # words, the title's fact in numbers or detail, never a restatement of it.
+              # Required whenever the title is not about the AI lane, or the homepage
+              # would pair an oil title with the AI summary.
 brief         # [{lane, anchor, line}] the week in brief; anchors: ai, deep-dive, geopolitics,
               # markets, wildcard (section ids on the site)
 regimes: { ai_compute|deep_dive|geopolitics|markets: {

@@ -4,7 +4,7 @@ A weekly newsletter that reads the week's top Hacker News posts (plus GitHub
 trending and arXiv), names the **regimes** organizing the moment, verifies every
 claim against primary reporting, and tracks how those regimes change over time.
 
-- **Public archive:** https://www.bwang.io/magikarp/
+- **Public archive:** https://www.bwang.io/newsletter/
 - **Design reference:** bwang.io/elekid · accent `#1a7f4b`
 
 ## How an issue is made

@@ -530,7 +530,7 @@ def page(title: str, inner: str) -> str:
 <style>{CSS}{MEDIA_CSS}</style>
 </head><body><div class="wrap">
 {inner}
-<footer><a href="https://github.com/sooflee/magikarp">source on GitHub</a><br>
+<footer><a href="https://github.com/sooflee/newsletter">source on GitHub</a><br>
 Market notes are directional only and are not investment advice.</footer>
 </div></body></html>
 """
@@ -912,7 +912,7 @@ def _regime(doc, iss, key):
 
 def render_issue_page(doc: dict, iss: dict) -> str:
     reg = iss.get("regimes", {})
-    dek = f'<p class="dek">{esc(iss["index_title"])}</p>' if iss.get("brief") and iss.get("index_title") else ""
+    dek = f'<p class="dek">{esc(iss["index_title"])}</p>' if iss.get("index_title") else ""
     secs = [render_brief(iss), render_lede(iss)]
     # Act 1 — the tech world
     secs.append(render_act("The tech world"))
@@ -984,6 +984,8 @@ def render_index(doc: dict, issues: list) -> str:
 
 
 def _lead_summary(iss: dict) -> str:
+    if iss.get("dek"):
+        return iss["dek"]
     for r in iss.get("regimes", {}).values():
         if r.get("summary"):
             return r["summary"]

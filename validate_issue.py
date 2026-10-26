@@ -207,6 +207,17 @@ def check_style(iss: dict):
         warn("index_title uses 'as' to join two stories; state one fact in one clause")
     if t.count(" and ") > 1:
         warn("index_title has more than one 'and'; it may be listing lanes instead of naming one move")
+    dek = iss.get("dek", "")
+    if dek:
+        n = words(dek)
+        if n < 15 or n > 32:
+            warn(f"dek is {n} words (aim 18-28); it sits under the title on the homepage")
+        t_words = {w for w in re.findall(r"[a-z0-9$€£%]+", t.lower())
+                   if w not in STOPWORDS and len(w) > 2}
+        d_words = {w for w in re.findall(r"[a-z0-9$€£%]+", dek.lower())
+                   if w not in STOPWORDS and len(w) > 2}
+        if t_words and len(t_words & d_words) / len(t_words | d_words) >= 0.5:
+            warn("dek restates the index_title; add the number or detail the title leaves out")
     for b in iss.get("brief", []):
         if words(b.get("line", "")) > 30:
             warn(f"brief[{b.get('anchor')}] is {words(b['line'])} words (limit 30)")
