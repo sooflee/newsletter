@@ -7,7 +7,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
-    <string>/Users/benson/Projects/magikarp/run_weekly.sh</string>
+    <string>/Users/benson/Projects/newsletter/run_weekly.sh</string>
   </array>
   <!-- Mondays at 8:00 AM local time -->
   <key>StartCalendarInterval</key>
@@ -17,11 +17,11 @@
     <key>Minute</key><integer>0</integer>
   </dict>
   <key>WorkingDirectory</key>
-  <string>/Users/benson/Projects/magikarp</string>
+  <string>/Users/benson/Projects/newsletter</string>
   <key>StandardOutPath</key>
-  <string>/Users/benson/Projects/magikarp/weekly.log</string>
+  <string>/Users/benson/Projects/newsletter/weekly.log</string>
   <key>StandardErrorPath</key>
-  <string>/Users/benson/Projects/magikarp/weekly.log</string>
+  <string>/Users/benson/Projects/newsletter/weekly.log</string>
   <key>RunAtLoad</key>
   <false/>
 </dict>
