@@ -155,12 +155,19 @@ budget in House style.
   (the label and badge sit above them). Summaries 90–130 words at most. Geopolitics, wildcard
   and brief comments two sentences, about 60 words. The wildcard carries at most four items.
   More than six links collapse behind "more sources" on the site, so order links by importance.
-- **Title standard.** The `index_title` is one sentence of 17–22 words, hard maximum 24.
-  Name one event anchor and one turn ("as ..."), not a list of the week's lanes. No colon,
-  and no more than one "and" joining separate events. The other lanes belong in `brief`;
-  a title that names every lane is a summary, not a title. Compare "The ten-year climbs
-  to its highest since 2007 as the rate cycle reaches US and Australian housing" (17
-  words) with the 33-word three-event title that issue 19 first shipped.
+- **Title standard.** The `index_title` is one clause stating one fact, 17–22 words,
+  hard maximum 24. Name one event and keep the trend inside that same clause, as a
+  participle or an appositive. Do not bolt a second story on with "as": it asserts a
+  link between two events the reporting may not support. Use "because" or "after" only
+  when the causation is real, never as decoration. No colon, and no more than one "and".
+  The other lanes belong in `brief`; a title that names every lane is a summary, not a
+  title. Compare "The ten-year Treasury yield climbs to its highest level since 2007,
+  lifting mortgage costs across the US and Australia" (19 words) with the 33-word
+  three-event title that issue 19 first shipped.
+- **Every title stands alone.** No recycled opening and no shared stock phrase across
+  issues: the reader should tell two issues apart from the first five words. "The
+  ten-year ..." cannot open three consecutive weeks. `validate_issue.py` warns on heavy
+  word overlap with any earlier title and on a repeated two-word opening.
 - **One home per story.** Geopolitics owns events, commodities owns prices, markets owns
   rates, the radar owns the slow read in one sentence. A fact already told is referred to, not
   retold; issue 14 first shipped with the pipeline in four sections and the Fed odds in four.
@@ -348,10 +355,11 @@ continuation, not a new lane. Archived defs kept for issues 01–05:
 
 ```
 id, week, date, date_label, partial
-index_title   # 17-22 words, hard max 24: one sentence naming one event anchor and one
-              # turn ("as ..."), e.g. "The ten-year climbs to its highest since 2007 as
-              # the rate cycle reaches US and Australian housing." Never a list of lanes;
-              # the other lanes go in `brief`. No colon.
+index_title   # 17-22 words, hard max 24: ONE clause, ONE fact, e.g. "The ten-year
+              # Treasury yield climbs to its highest level since 2007, lifting mortgage
+              # costs across the US and Australia." Carry the trend in a participle or
+              # appositive, never a second story joined with "as". No colon, no more
+              # than one "and". Every title must open differently from earlier issues.
 brief         # [{lane, anchor, line}] the week in brief; anchors: ai, deep-dive, geopolitics,
               # markets, wildcard (section ids on the site)
 regimes: { ai_compute|deep_dive|geopolitics|markets: {

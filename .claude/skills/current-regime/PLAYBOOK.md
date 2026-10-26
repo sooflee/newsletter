@@ -106,9 +106,12 @@ editing the 650 KB file.
 
 ### Field rules
 
-- `index_title`: one sentence, 17-22 words (hard max 24), one event anchor and one "as"
-  turn. Never a list of the week's lanes; the other lanes go in `brief`. No colon.
-  Example: "The ten-year climbs to its highest since 2007 as the rate cycle reaches US and Australian housing."
+- `index_title`: one clause, one fact, 17-22 words (hard max 24). Name one event and
+  carry the trend inside the same clause, as a participle or appositive. Never join a
+  second story with "as"; use "because" or "after" only when the link is verified. No
+  colon, at most one "and". Each title must open differently from every earlier issue.
+  Example: "The ten-year Treasury yield climbs to its highest level since 2007, lifting
+  mortgage costs across the US and Australia."
 - `brief`: exactly five lines with anchors `ai, deep-dive, geopolitics, markets, wildcard`,
   each under 30 words, each a fact.
 - Each lane: `headline` (≤20 words, declarative, states the theme), `summary` (90-130 words,

@@ -640,7 +640,7 @@
         ]
       },
       "date_label": "June 8–14, 2026",
-      "index_title": "AI access becomes an instrument of state as Washington pulls Fable 5 offline.",
+      "index_title": "The Commerce Department orders Anthropic to pull its top models from every customer, not just foreign nationals.",
       "commodities": {
         "as_of": "week ending June 14",
         "summary": "With oil moving through Hormuz again, crude tumbled roughly 8 percent and the conflict's fear premium is unwinding across the complex; gold, silver and natural gas fell with it, while coffee was the exception. With the strait reopening, analysts expect still more oil to reach the market, pointing to softer energy prices ahead.",
@@ -1077,7 +1077,7 @@
       "date": "2026-06-21",
       "partial": false,
       "date_label": "June 15–21, 2026",
-      "index_title": "The AI buildout turns to consolidation: a record IPO and chipmakers pairing off.",
+      "index_title": "SpaceX completes the largest initial public offering on record, raising about $75 billion at a $1.77 trillion valuation.",
       "regimes": {
         "tech_policy": {
           "state": "consolidation",
@@ -2081,7 +2081,7 @@
       "week": "2026-06-22/2026-06-28",
       "date": "2026-06-28",
       "date_label": "June 22–28, 2026",
-      "index_title": "Identity becomes the internet's gate: EU wallets arrive and device attestation locks users out.",
+      "index_title": "Washington pre-clears GPT-5.6 for about twenty organizations, the first time it decides who may use a frontier model.",
       "partial": false,
       "lede": "",
       "regimes": {
@@ -3034,7 +3034,7 @@
       "week": "2026-06-29/2026-07-05",
       "date": "2026-07-05",
       "date_label": "June 29 – July 5, 2026",
-      "index_title": "The export ban lifts, proving state control of AI access turns both ways.",
+      "index_title": "Export controls on Claude Fable 5 and Mythos 5 lift eighteen days after Commerce imposed them, with access returning the next day.",
       "partial": false,
       "lede": "",
       "regimes": {
@@ -3974,7 +3974,7 @@
       "week": "2026-07-06/2026-07-12",
       "date": "2026-07-10",
       "date_label": "July 6–12, 2026",
-      "index_title": "Model prices fall toward commodity while Europe makes message-scanning permanent.",
+      "index_title": "The European Parliament falls short of the votes to block message scanning, keeping the rule alive until April 2028.",
       "partial": false,
       "lede": "",
       "regimes": {
@@ -4957,7 +4957,7 @@
       "date": "2026-07-19",
       "date_label": "July 13–19, 2026",
       "partial": false,
-      "index_title": "Open weights become Chinese industrial policy as oil re-enters the inflation story.",
+      "index_title": "Moonshot launches Kimi K3, a 2.8 trillion parameter model at $3 per million input tokens, topping Hacker News at 2,100 points.",
       "lede": "",
       "regimes": {
         "ai_compute": {
@@ -5834,7 +5834,7 @@
       "date": "2026-07-26",
       "date_label": "July 20–26, 2026",
       "partial": false,
-      "index_title": "The open-weights fight reaches Washington as the oil shock becomes a rates problem.",
+      "index_title": "Nearly two hundred startups ask the White House not to restrict Chinese open weights, joined by Nvidia, Microsoft and Meta.",
       "lede": "",
       "regimes": {
         "ai_compute": {
@@ -6792,7 +6792,7 @@
       "date": "2026-08-02",
       "date_label": "July 27 – August 2, 2026",
       "partial": false,
-      "index_title": "The promised open-weights flood actually lands, and the oil shock unwinds into a three-dissent Fed.",
+      "index_title": "Kimi K3's weights land a day early at 1.4 terabytes, under a modified MIT licence and the largest open release to date.",
       "lede": "",
       "regimes": {
         "ai_compute": {
@@ -7752,7 +7752,7 @@
       "date": "2026-08-09",
       "date_label": "August 3–9, 2026",
       "partial": false,
-      "index_title": "Washington joins the open-weights race instead of blocking it, and a jobs miss unwinds the hike trade.",
+      "index_title": "The Energy Department opens a federal open-weight science model family to university and industry contributors, the first of them built with Arcee.",
       "lede": "",
       "regimes": {
         "ai_compute": {
@@ -8751,7 +8751,7 @@
       "date": "2026-08-16",
       "date_label": "August 10–16, 2026",
       "partial": false,
-      "index_title": "Alibaba ships its largest open model yet as Meta returns to open and oil turns back up.",
+      "index_title": "Alibaba delivers the Max-class open weights it promised, a model built for agentic work and released in full.",
       "lede": "",
       "regimes": {
         "ai_compute": {
@@ -9822,7 +9822,7 @@
       "date": "2026-08-23",
       "date_label": "August 17–23, 2026",
       "partial": false,
-      "index_title": "Stripe buys OpenRouter for $7.5 billion as the AI boom's payments layer consolidates around a few gatekeepers.",
+      "index_title": "Stripe pays a reported $7.5 billion for OpenRouter, the router that meters a growing share of AI inference.",
       "lede": "",
       "regimes": {
         "ai_compute": {
@@ -10882,7 +10882,7 @@
       "date": "2026-08-30",
       "date_label": "August 24–30, 2026",
       "partial": false,
-      "index_title": "OpenAI shows how its agents broke into Hugging Face as Warsh turns a September hike into the favourite.",
+      "index_title": "Seven hundred OpenAI agents broke into Hugging Face in July, a breach the postmortem detailed the day Nvidia bid $12.9 billion.",
       "lede": "",
       "regimes": {
         "ai_compute": {
@@ -11979,7 +11979,7 @@
       "date": "2026-09-06",
       "date_label": "August 31–September 6, 2026",
       "partial": false,
-      "index_title": "Three frontier launches withhold their best models as a Gulf missile exchange and a German far-right landslide sharpen the West's divisions.",
+      "index_title": "Three frontier labs ship their strongest models behind a vetting programme, with the public versions a step behind.",
       "lede": "",
       "regimes": {
         "ai_compute": {
@@ -13212,7 +13212,7 @@
       "date": "2026-09-13",
       "date_label": "September 7–13, 2026",
       "partial": false,
-      "index_title": "Mathematicians push back on the AI labs' race for famous problems as the oil war reaches Hormuz.",
+      "index_title": "Twenty-five Fields Medalists call the AI labs' pursuit of famous problems misaligned with mathematics, days after OpenAI's Navier-Stokes claim.",
       "lede": "",
       "regimes": {
         "ai_compute": {
@@ -14492,7 +14492,7 @@
       "date": "2026-09-20",
       "date_label": "September 14–20, 2026",
       "partial": false,
-      "index_title": "The Fed raises for the first time this cycle as the energy shock becomes a rate cycle and Japan's central bank follows.",
+      "index_title": "The Fed lifts rates for the first time in this cycle, with the Bank of Japan following the same day.",
       "lede": "",
       "brief": [
         {
@@ -15916,7 +15916,7 @@
       "date": "2026-09-27",
       "date_label": "September 21–27, 2026",
       "partial": false,
-      "index_title": "The ten-year climbs to its highest since 2007 as the rate cycle reaches US and Australian housing.",
+      "index_title": "The ten-year Treasury yield climbs to its highest level since 2007, lifting mortgage costs across the US and Australia.",
       "lede": "",
       "brief": [
         {
@@ -17236,7 +17236,7 @@
       "date": "2026-10-04",
       "date_label": "September 28 – October 4, 2026",
       "partial": false,
-      "index_title": "The ten-year reaches its highest since 2002 as the FTC confirms an inquiry into OpenAI, Anthropic and METR.",
+      "index_title": "The FTC confirms an inquiry into OpenAI, Anthropic and the evaluator METR, with formal demands expected within weeks.",
       "lede": "",
       "brief": [
         {
@@ -18530,7 +18530,7 @@
       "date": "2026-10-11",
       "date_label": "October 5 – 11, 2026",
       "partial": false,
-      "index_title": "The Treasury pays the most for ten-year money since 2000 as the Fed names AI borrowing among the pressures on yields.",
+      "index_title": "The Treasury pays its highest ten-year borrowing cost since 2000, and the Fed's minutes cite AI borrowing among the pressures on yields.",
       "lede": "",
       "brief": [
         {
@@ -19920,7 +19920,7 @@
       "date": "2026-10-18",
       "date_label": "October 12 – 18, 2026",
       "partial": false,
-      "index_title": "China's chip exports double in value as Meta and DeepSeek push their frontier weights into the open.",
+      "index_title": "China's chip exports double in value in September while the volume barely moves, a gap that points to pricing power.",
       "lede": "",
       "brief": [
         {
@@ -21328,7 +21328,7 @@
       "date": "2026-10-25",
       "date_label": "October 19 – 25, 2026",
       "partial": false,
-      "index_title": "Oil returns to $116 on Houthi strikes as AI's capex bill sends the ten-year below 5 percent.",
+      "index_title": "Brent tops $116 a barrel after Houthi strikes on Saudi oil infrastructure, its highest settlement since April.",
       "lede": "",
       "brief": [
         {

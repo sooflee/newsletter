@@ -52,6 +52,9 @@ MONTHS = ("January February March April May June July August September October "
           "November December").split()
 DATE_RE = re.compile(r"\b(" + "|".join(MONTHS) + r") (\d{1,2})\b")
 NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
+STOPWORDS = set("""a an and the of in on at to for from by with as its it is are was were be been
+this that these those after before over under than into within while but or not no more most
+says said will would could should has have had first new""".split())
 
 errors: list[str] = []
 warns: list[str] = []
@@ -199,7 +202,9 @@ def check_style(iss: dict):
     elif n_title < 17:
         warn(f"index_title is {n_title} words (aim for 17-22)")
     if ":" in t:
-        warn("index_title has a colon; name the event and the turn in one sentence")
+        warn("index_title has a colon; name one fact in one clause")
+    if re.search(r"\bas\b", t, re.I):
+        warn("index_title uses 'as' to join two stories; state one fact in one clause")
     if t.count(" and ") > 1:
         warn("index_title has more than one 'and'; it may be listing lanes instead of naming one move")
     for b in iss.get("brief", []):
@@ -242,6 +247,30 @@ def check_style(iss: dict):
     for i, n in enumerate(iss.get("annotations", [])):
         if words(n.get("note", "")) > 45:
             warn(f"annotations[{i}] ({n.get('terms')}) is {words(n['note'])} words (limit 45)")
+
+
+def check_title_uniqueness(iss: dict, doc: dict):
+    """A title must not reuse an earlier title's shape or wording."""
+    def content(s):
+        toks = re.findall(r"[a-z0-9$€£%]+", s.lower())
+        return {w for w in toks if w not in STOPWORDS and len(w) > 2}
+
+    mine = content(iss.get("index_title", ""))
+    if not mine:
+        return
+    first = " ".join(iss.get("index_title", "").lower().split()[:2])
+    for other in doc.get("issues", []):
+        if other.get("id") == iss.get("id") or not other.get("index_title"):
+            continue
+        theirs = content(other["index_title"])
+        if not theirs:
+            continue
+        overlap = len(mine & theirs) / len(mine | theirs)
+        if overlap >= 0.45:
+            warn(f"index_title shares {overlap:.0%} of its words with issue {other['id']}; "
+                 "give it its own vocabulary")
+        if first and " ".join(other["index_title"].lower().split()[:2]) == first:
+            warn(f"index_title opens with the same two words as issue {other['id']}")
 
 
 def check_geopolitics(iss: dict):
@@ -307,6 +336,7 @@ def main() -> int:
     print(f"validating issue {iss['id']} ({iss.get('week')})")
     check_schema(doc, iss, prev)
     check_style(iss)
+    check_title_uniqueness(iss, doc)
     check_geopolitics(iss)
     check_dates(iss, prev)
     if "--quotes" in sys.argv:

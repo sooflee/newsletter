@@ -426,8 +426,8 @@ API); ISW, Web3IGG, and Epoch AI feeds are blocked or nonexistent.
 
 ## Issue 08 — Week of 2026-07-27 → 2026-08-02
 
-**Index title:** The promised open-weights flood actually lands, and the oil shock unwinds
-into a three-dissent Fed.
+**Index title:** Kimi K3's weights land a day early at 1.4 terabytes, under a
+modified MIT licence and the largest open release to date.
 
 ### AI & compute (open-acceleration): Kimi K3's weights land a day early; the price war answers
 
@@ -510,8 +510,8 @@ method): ai_compute 19→17, geopolitics 1→0, markets 1→1.
 
 ## Issue 09 — Week of 2026-08-03 → 2026-08-09
 
-**Index title:** Washington joins the open-weights race instead of blocking it, and a
-jobs miss unwinds the hike trade.
+**Index title:** The Energy Department opens a federal open-weight science model
+family to university and industry contributors, the first of them built with Arcee.
 
 ### AI & compute (open-acceleration): DOE starts publishing open weights; Alibaba takes the agentic top spot
 
@@ -665,8 +665,8 @@ decision.
 
 ## Issue 10 — Week of 2026-08-10 → 2026-08-16
 
-**Index title:** Alibaba ships the first Max-class open weights and Meta comes back to open, as
-the Iran memorandum lapses and crude turns back up.
+**Index title:** Alibaba delivers the Max-class open weights it promised, a model
+built for agentic work and released in full.
 
 ### AI & compute (open-acceleration): Alibaba delivers the Max-class weights; Zhipu holds GLM-5.3 back for cyber safety
 
@@ -817,8 +817,8 @@ HEAD but served CSV; email and site render 1:1 across 60 elements; zero em-dashe
 
 ## Issue 11 — Week of 2026-08-17 → 2026-08-23
 
-One-line: Stripe buys OpenRouter as the AI boom's money layer starts consolidating, and
-the Treasury doubles its bond buybacks as oil drags the inflation scare back.
+**Index title:** Stripe pays a reported $7.5 billion for OpenRouter, the router that
+meters a growing share of AI inference.
 
 ### AI & compute (consolidation, flipped from open-acceleration): Stripe pays a reported $7.5B for OpenRouter
 
@@ -1018,9 +1018,8 @@ The July minutes basket now cites the Fed's own PDF rather than a secondary writ
 
 ## Issue 12 — Week of 2026-08-24 → 2026-08-30
 
-One-line: OpenAI publishes how its own agents broke into Hugging Face the night Nvidia is
-reported buying it, and Warsh's first Jackson Hole speech turns a September hike into the
-favourite.
+**Index title:** Seven hundred OpenAI agents broke into Hugging Face in July, a
+breach the postmortem detailed the day Nvidia bid $12.9 billion.
 
 ### AI & compute (consolidation, week 2): 700 OpenAI agents broke into Hugging Face; the postmortem and the $12.9B bid land the same day
 
@@ -1259,10 +1258,8 @@ worth a keyword pass before issue 13.
 
 ## Issue 13 — Week of 2026-08-31 → 2026-09-06
 
-One-line: Three frontier launches gate their strongest versions and OpenAI matches Anthropic's
-price to the dollar,
-Nvidia signs for the hub they ship on, and a missile exchange in the Gulf plus a far-right
-landslide in Germany push geopolitics from elevated to stressed.
+**Index title:** Three frontier labs ship their strongest models behind a vetting
+programme, with the public versions a step behind.
 
 ### AI & compute (consolidation, week 3): three launches, gated top tiers, Astra matches Fable's price, Nvidia signs
 
@@ -1479,9 +1476,8 @@ field is a thirty-day rolling count, never cumulative.
 
 ## Issue 14 — Week of 2026-09-07 → 2026-09-13
 
-One-line: Mathematicians turn on the AI labs' race for famous problems as OpenAI claims
-Navier-Stokes, and the Houthis' capture of Mocha puts a second oil chokepoint in play as Brent
-crosses $100.
+**Index title:** Twenty-five Fields Medalists call the AI labs' pursuit of famous
+problems misaligned with mathematics, days after OpenAI's Navier-Stokes claim.
 
 ### AI & compute (consolidation, week 4): the mathematicians, Navier-Stokes, DeepSeek at $0.60
 
@@ -1781,7 +1777,7 @@ fails on a note over 45 words, an em-dash in a note, or an issue note that never
 
 ## Issue 15 — Week of 2026-09-14 → 2026-09-20
 
-Built 2026-09-21. Title: "The Fed raises for the first time this cycle as the energy shock becomes a rate cycle and Japan's central bank follows."
+Built 2026-09-21. Title: "The Fed lifts rates for the first time in this cycle, with the Bank of Japan following the same day."
 
 States: ai_compute **open-acceleration** (from consolidation), deep_dive (culture & media)
 accelerating, geopolitics stressed, markets mixed. Momentum: ai_compute 17 → 18, geopolitics 4 → 4,
@@ -1884,7 +1880,7 @@ CCZ26 and CTZ26 and held. Check every soft against its explicit contract before 
 
 ## Issue 16 — Week of 2026-09-21 → 2026-09-27
 
-Built 2026-09-28. Title: "The ten-year climbs to its highest since 2007 as the rate cycle reaches US and Australian housing."
+Built 2026-09-28. Title: "The ten-year Treasury yield climbs to its highest level since 2007, lifting mortgage costs across the US and Australia."
 
 States: ai_compute **open-acceleration** (held), deep_dive (cities & housing) accelerating, geopolitics
 stressed (held), markets mixed (held). Momentum: ai_compute 18 → 18, geopolitics 4 → 3, markets 3 → 0
@@ -1940,7 +1936,7 @@ Four adversarial passes, about fifty corrections, applied as exact-match replace
 
 ## Issue 17 — Week of 2026-09-28 → 2026-10-04
 
-Built 2026-10-05. Title: "The ten-year reaches its highest since 2002 as the FTC confirms an inquiry into OpenAI, Anthropic and METR."
+Built 2026-10-05. Title: "The FTC confirms an inquiry into OpenAI, Anthropic and the evaluator METR, with formal demands expected within weeks."
 
 States: ai_compute **open-acceleration** (held), deep_dive (bio & health) stalling, geopolitics stressed
 (held), markets mixed (held). Momentum: ai_compute 18 → 18, geopolitics 3 → 2, markets 0 → 1, computed with
@@ -2024,7 +2020,7 @@ readers must see cannot live only in `evidence`.
 
 ## Issue 18 — Week of 2026-10-05 → 2026-10-11
 
-Built 2026-10-12/13. Title: "The Treasury pays the most for ten-year money since 2000 as the Fed names AI borrowing among the pressures on yields."
+Built 2026-10-12/13. Title: "The Treasury pays its highest ten-year borrowing cost since 2000, and the Fed's minutes cite AI borrowing among the pressures on yields."
 
 States: ai_compute **open-acceleration** (held, third week), deep_dive (the real economy) stalling,
 geopolitics stressed (held), markets mixed (held). Momentum: ai_compute 18 → 14, geopolitics 2 → 2,
@@ -2085,7 +2081,7 @@ Four adversarial passes, about 30 corrections plus humanize edits, applied with 
 
 ## Issue 19 — Week of 2026-10-12 → 2026-10-18
 
-Built 2026-10-19. Title: "China's chip exports double in value as Meta and DeepSeek push their frontier weights into the open."
+Built 2026-10-19. Title: "China's chip exports double in value in September while the volume barely moves, a gap that points to pricing power."
 
 States: ai_compute **open-acceleration** (held), deep_dive (China's industrial stack) accelerating, geopolitics stressed (held), markets **risk-off** (changed from mixed). Momentum: ai_compute 14 → 14, geopolitics 2 → 3, markets 4 → 1 (`momentum.py 2026-10-12 2026-10-18`).
 
@@ -2129,7 +2125,7 @@ Every editorial issue from 01 to 19 now carries at least three visuals. Added 45
 
 ## Issue 20: Week of 2026-10-19 → 2026-10-25
 
-Built 2026-10-26. Title: "Oil returns to $116 on Houthi strikes as AI's capex bill sends the ten-year below 5 percent."
+Built 2026-10-26. Title: "Brent tops $116 a barrel after Houthi strikes on Saudi oil infrastructure, its highest settlement since April."
 
 States: ai_compute **consolidation** (changed from open-acceleration), deep_dive (energy & materials) accelerating, geopolitics stressed (held), markets risk-off (held). Momentum: ai_compute 14 → 16, geopolitics 3 → 2, markets 1 → 1 (`momentum.py 2026-10-19 2026-10-25`).
 
