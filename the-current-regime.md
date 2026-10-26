@@ -1781,7 +1781,7 @@ fails on a note over 45 words, an em-dash in a note, or an issue note that never
 
 ## Issue 15 — Week of 2026-09-14 → 2026-09-20
 
-Built 2026-09-21. Title: "The Fed raises for the first time this cycle as the energy shock becomes a rate cycle."
+Built 2026-09-21. Title: "The Fed raises for the first time this cycle as the energy shock becomes a rate cycle and Japan's central bank follows."
 
 States: ai_compute **open-acceleration** (from consolidation), deep_dive (culture & media)
 accelerating, geopolitics stressed, markets mixed. Momentum: ai_compute 17 → 18, geopolitics 4 → 4,
@@ -1884,7 +1884,7 @@ CCZ26 and CTZ26 and held. Check every soft against its explicit contract before 
 
 ## Issue 16 — Week of 2026-09-21 → 2026-09-27
 
-Built 2026-09-28. Title: "The ten-year climbs to its highest since 2007 as the rate cycle reaches housing."
+Built 2026-09-28. Title: "The ten-year climbs to its highest since 2007 as the rate cycle reaches US and Australian housing."
 
 States: ai_compute **open-acceleration** (held), deep_dive (cities & housing) accelerating, geopolitics
 stressed (held), markets mixed (held). Momentum: ai_compute 18 → 18, geopolitics 4 → 3, markets 3 → 0
@@ -1940,7 +1940,7 @@ Four adversarial passes, about fifty corrections, applied as exact-match replace
 
 ## Issue 17 — Week of 2026-09-28 → 2026-10-04
 
-Built 2026-10-05. Title: "The ten-year reaches its highest since 2002 as regulators move on the AI labs."
+Built 2026-10-05. Title: "The ten-year reaches its highest since 2002 as the FTC confirms an inquiry into OpenAI, Anthropic and METR."
 
 States: ai_compute **open-acceleration** (held), deep_dive (bio & health) stalling, geopolitics stressed
 (held), markets mixed (held). Momentum: ai_compute 18 → 18, geopolitics 3 → 2, markets 0 → 1, computed with
@@ -2024,7 +2024,7 @@ readers must see cannot live only in `evidence`.
 
 ## Issue 18 — Week of 2026-10-05 → 2026-10-11
 
-Built 2026-10-12/13. Title: "The Treasury pays the most for ten-year money since 2000 as the Fed names AI borrowing."
+Built 2026-10-12/13. Title: "The Treasury pays the most for ten-year money since 2000 as the Fed names AI borrowing among the pressures on yields."
 
 States: ai_compute **open-acceleration** (held, third week), deep_dive (the real economy) stalling,
 geopolitics stressed (held), markets mixed (held). Momentum: ai_compute 18 → 14, geopolitics 2 → 2,
@@ -2085,7 +2085,7 @@ Four adversarial passes, about 30 corrections plus humanize edits, applied with 
 
 ## Issue 19 — Week of 2026-10-12 → 2026-10-18
 
-Built 2026-10-19. Title: "China's chip exports double in value as frontier AI weights go open."
+Built 2026-10-19. Title: "China's chip exports double in value as Meta and DeepSeek push their frontier weights into the open."
 
 States: ai_compute **open-acceleration** (held), deep_dive (China's industrial stack) accelerating, geopolitics stressed (held), markets **risk-off** (changed from mixed). Momentum: ai_compute 14 → 14, geopolitics 2 → 3, markets 4 → 1 (`momentum.py 2026-10-12 2026-10-18`).
 
@@ -2129,7 +2129,7 @@ Every editorial issue from 01 to 19 now carries at least three visuals. Added 45
 
 ## Issue 20: Week of 2026-10-19 → 2026-10-25
 
-Built 2026-10-26. Title: "Oil returns to $116 as AI's capex bill cracks the ten-year below 5 percent."
+Built 2026-10-26. Title: "Oil returns to $116 on Houthi strikes as AI's capex bill sends the ten-year below 5 percent."
 
 States: ai_compute **consolidation** (changed from open-acceleration), deep_dive (energy & materials) accelerating, geopolitics stressed (held), markets risk-off (held). Momentum: ai_compute 14 → 16, geopolitics 3 → 2, markets 1 → 1 (`momentum.py 2026-10-19 2026-10-25`).
 

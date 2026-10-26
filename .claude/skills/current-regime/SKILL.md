@@ -155,12 +155,12 @@ budget in House style.
   (the label and badge sit above them). Summaries 90–130 words at most. Geopolitics, wildcard
   and brief comments two sentences, about 60 words. The wildcard carries at most four items.
   More than six links collapse behind "more sources" on the site, so order links by importance.
-- **Title standard.** The `index_title` is one sentence of 12–18 words, hard maximum 20.
+- **Title standard.** The `index_title` is one sentence of 17–22 words, hard maximum 24.
   Name one event anchor and one turn ("as ..."), not a list of the week's lanes. No colon,
   and no more than one "and" joining separate events. The other lanes belong in `brief`;
-  a title that names every lane is a summary, not a title. Compare "Open weights become
-  Chinese industrial policy as oil re-enters the inflation story" (12 words) with the
-  33-word three-event title that issue 19 first shipped.
+  a title that names every lane is a summary, not a title. Compare "The ten-year climbs
+  to its highest since 2007 as the rate cycle reaches US and Australian housing" (17
+  words) with the 33-word three-event title that issue 19 first shipped.
 - **One home per story.** Geopolitics owns events, commodities owns prices, markets owns
   rates, the radar owns the slow read in one sentence. A fact already told is referred to, not
   retold; issue 14 first shipped with the pipeline in four sections and the Fed odds in four.
@@ -348,9 +348,9 @@ continuation, not a new lane. Archived defs kept for issues 01–05:
 
 ```
 id, week, date, date_label, partial
-index_title   # 12-18 words, hard max 20: one sentence naming one event anchor and one
-              # turn ("as ..."), e.g. "Open weights become Chinese industrial policy as
-              # oil re-enters the inflation story." Never a list of the week's lanes;
+index_title   # 17-22 words, hard max 24: one sentence naming one event anchor and one
+              # turn ("as ..."), e.g. "The ten-year climbs to its highest since 2007 as
+              # the rate cycle reaches US and Australian housing." Never a list of lanes;
               # the other lanes go in `brief`. No colon.
 brief         # [{lane, anchor, line}] the week in brief; anchors: ai, deep-dive, geopolitics,
               # markets, wildcard (section ids on the site)

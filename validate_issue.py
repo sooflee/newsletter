@@ -192,10 +192,12 @@ def check_style(iss: dict):
     if ";" in t or len(sentences(t)) > 1:
         err("index_title must be ONE declarative sentence (event as a move in its trend), not a list")
     n_title = words(t)
-    if n_title > 20:
-        err(f"index_title is {n_title} words (hard max 20; aim for 12-18)")
-    elif n_title > 18:
-        warn(f"index_title is {n_title} words (aim for 12-18)")
+    if n_title > 24:
+        err(f"index_title is {n_title} words (hard max 24; aim for 17-22)")
+    elif n_title > 22:
+        warn(f"index_title is {n_title} words (aim for 17-22)")
+    elif n_title < 17:
+        warn(f"index_title is {n_title} words (aim for 17-22)")
     if ":" in t:
         warn("index_title has a colon; name the event and the turn in one sentence")
     if t.count(" and ") > 1:
