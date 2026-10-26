@@ -191,8 +191,15 @@ def check_style(iss: dict):
     t = iss.get("index_title", "")
     if ";" in t or len(sentences(t)) > 1:
         err("index_title must be ONE declarative sentence (event as a move in its trend), not a list")
-    if words(t) > 40:
-        warn(f"index_title is {words(t)} words")
+    n_title = words(t)
+    if n_title > 20:
+        err(f"index_title is {n_title} words (hard max 20; aim for 12-18)")
+    elif n_title > 18:
+        warn(f"index_title is {n_title} words (aim for 12-18)")
+    if ":" in t:
+        warn("index_title has a colon; name the event and the turn in one sentence")
+    if t.count(" and ") > 1:
+        warn("index_title has more than one 'and'; it may be listing lanes instead of naming one move")
     for b in iss.get("brief", []):
         if words(b.get("line", "")) > 30:
             warn(f"brief[{b.get('anchor')}] is {words(b['line'])} words (limit 30)")

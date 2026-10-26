@@ -1781,9 +1781,7 @@ fails on a note over 45 words, an em-dash in a note, or an issue note that never
 
 ## Issue 15 — Week of 2026-09-14 → 2026-09-20
 
-Built 2026-09-21. Title: "The energy shock turns into a rate cycle as the Fed raises for the first
-time this cycle and the Bank of Japan reaches its highest rate since 1995, while Washington makes AI
-safety a partisan question."
+Built 2026-09-21. Title: "The Fed raises for the first time this cycle as the energy shock becomes a rate cycle."
 
 States: ai_compute **open-acceleration** (from consolidation), deep_dive (culture & media)
 accelerating, geopolitics stressed, markets mixed. Momentum: ai_compute 17 → 18, geopolitics 4 → 4,
@@ -1886,8 +1884,7 @@ CCZ26 and CTZ26 and held. Check every soft against its explicit contract before 
 
 ## Issue 16 — Week of 2026-09-21 → 2026-09-27
 
-Built 2026-09-28. Title: "The ten-year Treasury yield climbs to its highest since 2007 as the rate cycle
-reaches housing on both sides of the Pacific, and open weights push the frontier labs into cutting prices."
+Built 2026-09-28. Title: "The ten-year climbs to its highest since 2007 as the rate cycle reaches housing."
 
 States: ai_compute **open-acceleration** (held), deep_dive (cities & housing) accelerating, geopolitics
 stressed (held), markets mixed (held). Momentum: ai_compute 18 → 18, geopolitics 4 → 3, markets 3 → 0
@@ -1943,8 +1940,7 @@ Four adversarial passes, about fifty corrections, applied as exact-match replace
 
 ## Issue 17 — Week of 2026-09-28 → 2026-10-04
 
-Built 2026-10-05. Title: "The ten-year yield reaches its highest since 2002 even as traders drop an October
-Fed rise, and regulators turn on the AI labs after OpenAI's agents reach more than 100 organisations."
+Built 2026-10-05. Title: "The ten-year reaches its highest since 2002 as regulators move on the AI labs."
 
 States: ai_compute **open-acceleration** (held), deep_dive (bio & health) stalling, geopolitics stressed
 (held), markets mixed (held). Momentum: ai_compute 18 → 18, geopolitics 3 → 2, markets 0 → 1, computed with
@@ -2028,9 +2024,7 @@ readers must see cannot live only in `evidence`.
 
 ## Issue 18 — Week of 2026-10-05 → 2026-10-11
 
-Built 2026-10-12/13. Title: "The Treasury pays the most for ten-year money since 2000 as the Fed's minutes
-name AI borrowing among the pressures on yields, and OpenAI's revenue comes in well below the figure
-investors had been hearing."
+Built 2026-10-12/13. Title: "The Treasury pays the most for ten-year money since 2000 as the Fed names AI borrowing."
 
 States: ai_compute **open-acceleration** (held, third week), deep_dive (the real economy) stalling,
 geopolitics stressed (held), markets mixed (held). Momentum: ai_compute 18 → 14, geopolitics 2 → 2,
@@ -2091,7 +2085,7 @@ Four adversarial passes, about 30 corrections plus humanize edits, applied with 
 
 ## Issue 19 — Week of 2026-10-12 → 2026-10-18
 
-Built 2026-10-19. Title: "China's chip exports more than doubled in value on a 3.8 percent rise in volume, Meta and DeepSeek push frontier weights into the open, and France's cost-of-living revolt burns a 143-year-old city hall."
+Built 2026-10-19. Title: "China's chip exports double in value as frontier AI weights go open."
 
 States: ai_compute **open-acceleration** (held), deep_dive (China's industrial stack) accelerating, geopolitics stressed (held), markets **risk-off** (changed from mixed). Momentum: ai_compute 14 → 14, geopolitics 2 → 3, markets 4 → 1 (`momentum.py 2026-10-12 2026-10-18`).
 
@@ -2135,7 +2129,7 @@ Every editorial issue from 01 to 19 now carries at least three visuals. Added 45
 
 ## Issue 20: Week of 2026-10-19 → 2026-10-25
 
-Built 2026-10-26. Title: "Brent tops $116 as Houthi strikes hit Saudi oil infrastructure, AI's capex bill drives the ten-year below 5 percent, and Lula wins a fourth term while Serbia's students end Vučić's rule."
+Built 2026-10-26. Title: "Oil returns to $116 as AI's capex bill cracks the ten-year below 5 percent."
 
 States: ai_compute **consolidation** (changed from open-acceleration), deep_dive (energy & materials) accelerating, geopolitics stressed (held), markets risk-off (held). Momentum: ai_compute 14 → 16, geopolitics 3 → 2, markets 1 → 1 (`momentum.py 2026-10-19 2026-10-25`).
 

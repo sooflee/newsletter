@@ -155,6 +155,12 @@ budget in House style.
   (the label and badge sit above them). Summaries 90–130 words at most. Geopolitics, wildcard
   and brief comments two sentences, about 60 words. The wildcard carries at most four items.
   More than six links collapse behind "more sources" on the site, so order links by importance.
+- **Title standard.** The `index_title` is one sentence of 12–18 words, hard maximum 20.
+  Name one event anchor and one turn ("as ..."), not a list of the week's lanes. No colon,
+  and no more than one "and" joining separate events. The other lanes belong in `brief`;
+  a title that names every lane is a summary, not a title. Compare "Open weights become
+  Chinese industrial policy as oil re-enters the inflation story" (12 words) with the
+  33-word three-event title that issue 19 first shipped.
 - **One home per story.** Geopolitics owns events, commodities owns prices, markets owns
   rates, the radar owns the slow read in one sentence. A fact already told is referred to, not
   retold; issue 14 first shipped with the pipeline in four sections and the Fed odds in four.
@@ -270,13 +276,14 @@ a missing credit, licence, alt, caption, dimensions or file.
 - **At least three visuals per issue.** Charts count. Spread them across the issue
   (for example, the deep-dive, markets and commodities), and use an event photo
   when one exists. Never use stock or archive images just to reach the number.
-- **Photos: open licence only, stored locally.** Public domain (NASA, NOAA, other US
-  federal agencies), CC0, CC BY or CC BY-SA. Never use news-agency or outlet photos
-  from the linked articles, and never hotlink. Fetch with `python3 media.py commons
-  "File:Name.jpg" docs/img/<issue>/<section>.jpg` (Wikimedia Commons, licence and
-  author read from the file page) or `python3 media.py worldview <date> <S,W,N,E>
-  docs/img/<issue>/<section>.jpg` (a NASA satellite image of that day, public domain).
-  Both resize to 1280px and print the JSON block.
+- **Photos: open licence by default, stored locally.** Public domain (NASA, NOAA, other US
+  federal agencies), CC0, CC BY or CC BY-SA. For the owner's private archive, editorial-use
+  news photos are allowed with a credit and source link; mark the licence `Editorial use
+  only` and never hotlink. Do not use them for public or commercial redistribution. Fetch
+  with `python3 media.py commons "File:Name.jpg" docs/img/<issue>/<section>.jpg` (Wikimedia
+  Commons, licence and author read from the file page) or `python3 media.py worldview
+  <date> <S,W,N,E> docs/img/<issue>/<section>.jpg` (a NASA satellite image of that day,
+  public domain). Both resize to 1280px and print the JSON block.
 - **Look at every image before writing its `alt` and `caption`.** The caption states
   what the picture shows, where and when ("The Bab al-Mandeb strait ... photographed
   from the ISS in February 2020"). An archive photo must carry its own date so it is
@@ -341,10 +348,10 @@ continuation, not a new lane. Archived defs kept for issues 01–05:
 
 ```
 id, week, date, date_label, partial
-index_title   # archive/index title: state the week's defining event AS a move in its
-              # larger trend ("Open weights become Chinese industrial policy as oil
-              # re-enters the inflation story."), never a bare event list ("X ships;
-              # Y lands."). Event anchor + trend meaning in one declarative sentence.
+index_title   # 12-18 words, hard max 20: one sentence naming one event anchor and one
+              # turn ("as ..."), e.g. "Open weights become Chinese industrial policy as
+              # oil re-enters the inflation story." Never a list of the week's lanes;
+              # the other lanes go in `brief`. No colon.
 brief         # [{lane, anchor, line}] the week in brief; anchors: ai, deep-dive, geopolitics,
               # markets, wildcard (section ids on the site)
 regimes: { ai_compute|deep_dive|geopolitics|markets: {

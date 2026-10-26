@@ -106,9 +106,9 @@ editing the 650 KB file.
 
 ### Field rules
 
-- `index_title`: one sentence, the week's defining event stated as a move in its trend.
-  Never "X happens; Y happens." Example: "The ten-year Treasury yield climbs to its highest
-  since 2007 as the rate cycle reaches housing on both sides of the Pacific..."
+- `index_title`: one sentence, 12-18 words (hard max 20), one event anchor and one "as"
+  turn. Never a list of the week's lanes; the other lanes go in `brief`. No colon.
+  Example: "The ten-year climbs to its highest since 2007 as the rate cycle reaches housing."
 - `brief`: exactly five lines with anchors `ai, deep-dive, geopolitics, markets, wildcard`,
   each under 30 words, each a fact.
 - Each lane: `headline` (≤20 words, declarative, states the theme), `summary` (90-130 words,
