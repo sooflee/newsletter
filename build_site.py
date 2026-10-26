@@ -370,7 +370,7 @@ document.querySelectorAll('.cbox').forEach(function(box){
 });
 </script>"""
 
-LICENSE_OK = ("Public domain", "CC0", "CC BY ", "CC BY-SA ")
+LICENSE_OK = ("Public domain", "CC0", "CC BY ", "CC BY-SA ", "Editorial use only")
 
 
 def render_figure(img) -> str:
