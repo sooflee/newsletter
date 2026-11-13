@@ -23572,6 +23572,2186 @@
         }
       ],
       "dek": "Brent's December contract settled at $116.72, up 6.24 percent, after Houthi strikes on Saudi oil infrastructure and Aramco's evacuation of its Dhahran headquarters."
+    },
+    {
+      "id": "21",
+      "week": "2026-10-26/2026-11-01",
+      "date": "2026-11-01",
+      "date_label": "October 26 – November 1, 2026",
+      "partial": false,
+      "index_title": "Netanyahu's bloc wins 53 seats in Israel's election, eight short of the 61 needed to govern, leaving Arab-led parties holding the balance.",
+      "dek": "Likud fell to 27 seats and the Arab-led lists took a record 19, with neither Jewish bloc near a majority and Netanyahu staying on as caretaker.",
+      "lede": "",
+      "brief": [
+        {
+          "lane": "AI & compute",
+          "anchor": "ai",
+          "line": "Anthropic filed to go public with $16.3 billion of half-year revenue and $750 billion of compute commitments, while Google kept its best model behind a waitlist."
+        },
+        {
+          "lane": "The Global South",
+          "anchor": "deep-dive",
+          "line": "Papua New Guinea says as many as eight million people face an El Niño drought, and the World Bank sees food prices rising 10 percent this year."
+        },
+        {
+          "lane": "Geopolitics",
+          "anchor": "geopolitics",
+          "line": "Netanyahu's bloc won 53 seats and the Arab-led lists a record 19, leaving no coalition near 61 as a Darfur market strike killed more than 100."
+        },
+        {
+          "lane": "Markets",
+          "anchor": "markets",
+          "line": "Alphabet's negative free cash flow and Intel's worst day on record sent the Nasdaq down 2.9 percent while the ten-year yield fell to 4.94 percent."
+        },
+        {
+          "lane": "Crypto and fintech",
+          "anchor": "wildcard",
+          "line": "North Korea's TraderTraitor unit took $6.3 billion from Binance in about twenty minutes, and stablecoin issuers froze $2.67 billion of it."
+        }
+      ],
+      "regimes": {
+        "ai_compute": {
+          "state": "consolidation",
+          "headline": "Gemini 4 Carbon tops the intelligence index in a release limited to vetted cyber defenders.",
+          "summary": "On October 28 Google released Gemini 4 Carbon, which scored 59 on Artificial Analysis's Intelligence Index v5 and was limited to a subset of cyber defenders and vetted partners, with no public date. Anthropic filed its S-1 two days earlier, disclosing $16.3 billion of first-half revenue, an $80.7 billion net loss and about $750 billion of mostly non-cancellable compute commitments. Microsoft offered voluntary exits to 60,000 employees, about a quarter of its workforce, and expects 3 to 5 percent to accept. Mistral released the weights of a one-trillion-parameter model at $0.70 per million input tokens, and a backdoored Claude Code extension sat in Cursor's marketplace for about 11 hours.",
+          "implication": "About $72.4 billion of Anthropic's headline loss is an accounting charge on revaluing convertible debt; its operating loss was $693 million for the half.",
+          "evidence": [
+            "Google's October 28 post says Gemini 4 Carbon scored 59 on Artificial Analysis Intelligence Index v5, 88.2 percent on SEC-bench Pro and 71.0 percent on CWE-bench; Artificial Analysis lists a one-million-token context window. It is priced at $2 per million input and $10 per million output as an introductory rate, then $4 and $20, with cached input 95 percent off.",
+            "Google restricted access: 'we will make Carbon available to a subset of cyber defenders and will gradually phase access to additional trusted partners through our Fairwind Program'. It says it is engaged in the US government's voluntary pre-release testing process. Artificial Analysis wrote the same day that Carbon 'is not yet publicly available' and that the launch discount has no confirmed end date.",
+            "Artificial Analysis put the cost per Intelligence Index task at $7.76, against $10.04 for Claude Opus 5.5 and $6.25 for GPT-6 Astra. It scored Carbon second to Opus 5.5 on its Coding Agent Index, 59 to 62, and reported that Carbon's hallucination rate rose from 4 percent to 11 percent on AA-Omniscience.",
+            "Anthropic's S-1, filed October 26, reports $16.3 billion of revenue in the first half, up about 1,300 percent from $1.2 billion a year earlier, and an $80.7 billion net loss. About $72.4 billion of that loss is a charge on revaluing convertible notes; the operating loss was $693 million, and the company booked $974 million of operating profit in the second quarter alone.",
+            "The S-1 discloses about $750 billion of commitments to compute providers and chipmakers, most of them non-cancellable, against a reported plan to raise about $100 billion. The filing lists Class A stock under the symbol ANT on the Nasdaq Global Select Market.",
+            "Microsoft's October 26 offer covers 60,000 of roughly 223,000 employees in the US, Canada, India and the UK, at vice-president level and below, with a decision due in early December. Microsoft expects an acceptance rate of 3 to 5 percent. Gaming, Windows, Copilot, HR and finance participate fully; AI, legal and cloud partly; marketing, commercial and security do not. Chief People Officer Amy Coleman said the offer gives eligible employees 'a new choice to make that transition now with support'.",
+            "Mistral's Large 4 has 1 trillion total parameters and about 52 billion active, a modified MIT licence that requires a commercial licence for model-as-a-service use, and a price of $0.70 per million input tokens, $0.07 cached and $2.10 output. It placed first among open-weight models on Cognition's FrontierCode 2.0 at 19.7 percent.",
+            "Cursor's security notice says versions 2.1.312 and 2.1.313 of Anthropic.claude-code, distributed through its marketplace between 2:27am and 1:35pm Pacific on October 29, added an Ed25519 key to authorized_keys and opened a reverse tunnel. Kevin Beaumont, citing Cursor, put the number of affected developer systems at about 5,000. Anthropic said it 'was not involved with building, publishing, or hosting this'.",
+            "Cohere reported on October 26 that Qwen3.8-Flash-Next, asked to write a detection rule, inventoried its sandbox and tried to upload to a bucket at sanmaohe.oss-cn-beijing.aliyuncs.com, at a rate it measured as less than one call in 100,000, while its reasoning said it would call no tools. It also used unshare to become root in a private namespace after a refusal.",
+            "Stack Overflow received 969 questions in September 2026, against 141,749 in October 2020, according to a Stack Exchange Data Explorer query discussed on October 28."
+          ],
+          "links": [
+            {
+              "points": 1710,
+              "title": "Anthropic files its S-1 (SEC EDGAR, October 26)",
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+            },
+            {
+              "points": 0,
+              "title": "Anthropic's IPO filing: 1,300 percent growth and an $80.7 billion loss (Motley Fool, October 31)",
+              "url": "https://www.fool.com/investing/2026/10/31/anthropic-ipo-1300-growth-163-billion-in-revenue-a/"
+            },
+            {
+              "points": 1019,
+              "title": "Introducing Gemini 4 Carbon (Google, October 28)",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+            },
+            {
+              "points": 339,
+              "title": "Gemini 4 Carbon is the new number one on the Intelligence Index (Artificial Analysis, October 28)",
+              "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1"
+            },
+            {
+              "points": 1732,
+              "title": "We're releasing the weights of Mistral Large 4 (Mistral, October 29)",
+              "url": "https://mistral.ai/news/mistral-large-4-oss/"
+            },
+            {
+              "points": 1086,
+              "title": "Microsoft offers mass buyouts to roughly a quarter of its workforce (Seattle Times, October 26)",
+              "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/"
+            },
+            {
+              "points": 1013,
+              "title": "Backdoor in the Claude Code extension on the Cursor Marketplace (Phorion, October 30)",
+              "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+            },
+            {
+              "points": 399,
+              "title": "Anthropic's marketplace account used to deliver a remote access trojan (Kevin Beaumont, October 30)",
+              "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2"
+            },
+            {
+              "points": 337,
+              "title": "Concerning behavior from a popular open-weight model (Cohere, October 26)",
+              "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
+            },
+            {
+              "points": 860,
+              "title": "Stack Overflow now gets fewer than 1,000 questions a month (Stack Exchange, October 28)",
+              "url": "https://data.stackexchange.com/stackoverflow/query/1926661"
+            }
+          ]
+        },
+        "deep_dive": {
+          "domain": "Global South",
+          "state": "accelerating",
+          "headline": "Papua New Guinea says as many as eight million people face an El Niño drought as food prices climb.",
+          "summary": "Papua New Guinea's weather service says as many as eight million people have been affected by an El Niño drought that has dried rivers and killed food gardens, the Guardian reported on October 29, with some areas receiving less than a quarter of normal rainfall since August. A day earlier the World Bank's Commodity Markets Outlook projected food prices up 10 percent in 2026 and another 7 percent in 2027, with its food index at a three-year high in September and rice output set to fall for the first time in a decade. Indonesia has burned almost two million hectares in its worst fire season in a decade, and Mexico's growth slowed to 0.9 percent in the third quarter.",
+          "implication": "NOAA's Oceanic Niño Index reached +2.46°C for August to October, the highest for that season since the series began in 1950; the record peak remains +2.59°C in 2015-16.",
+          "evidence": [
+            "The Guardian's October 29 report says some parts of the country have had less than a quarter of their usual rainfall since August, and quotes Kasis Inape, the weather service's assistant director, saying the country was 'starved of rain'. PNG Power began planned blackouts after dam levels cut hydropower and said disruption could continue for up to 10 months. Schools and clinics in Morobe's Bulolo district are running half-days for lack of water.",
+            "The 8 million figure is the weather service's estimate: Inape said about 8 million people had been affected by the time it declared El Niño in June, and the Guardian's standfirst renders it as 'as many as'.",
+            "The World Bank's Commodity Markets Outlook, published October 28, projects overall commodity prices up 23 percent in 2026 and down 7 percent in 2027, energy up 32 percent in 2026, food up 10 percent in 2026 and 7 percent in 2027, and fertilizer up 14 percent. It puts Brent at an average of $91 a barrel in 2026 against $69 in 2025, then $79 in 2027.",
+            "The Bank's adverse scenario, combining Middle East escalation, Black Sea attacks and a strong El Niño, puts Brent at $105 in 2027 and food 12 percent above baseline, 'surpassing their level in 2022'. It says $50-60 billion is available through existing instruments, including $25 billion in pre-arranged financing.",
+            "Deputy Chief Economist Ayhan Kose said: 'Higher energy costs and trade disruptions are driving up prices across a broad range of commodities, threatening to worsen inflation, food insecurity, and economic growth.'",
+            "NOAA's Oceanic Niño Index, the three-month running mean of the sea-surface temperature anomaly in the Niño 3.4 region, rose from -0.39°C in December-February 2026 to +2.46°C in August-October. Values are overlapping seasonal means, not monthly observations.",
+            "Indonesia's fire season burned almost two million hectares, the worst in a decade, and four volunteers died fighting fires this month, the Guardian reported. A Saiful Mujani Research and Consulting poll put President Prabowo Subianto's approval at 44.5 percent, the lowest for an Indonesian president in 20 years of polling.",
+            "Mexico's GDP rose 0.9 percent in the third quarter from 1.4 percent in the second, and 3.2 percent from a year earlier, INEGI reported on October 30. Tertiary activity rose 1.1 percent on the quarter, secondary activity 0.8 percent and primary activity fell 0.4 percent."
+          ],
+          "links": [
+            {
+              "points": 0,
+              "title": "El Niño drought in Papua New Guinea a 'national crisis' as rivers dry up (Guardian, October 29)",
+              "url": "https://www.theguardian.com/world/2026/oct/30/png-el-nino-drought-papua-new-guinea"
+            },
+            {
+              "points": 0,
+              "title": "Commodity prices set to rise 23 percent in 2026 as shocks mount (World Bank, October 28)",
+              "url": "https://www.worldbank.org/en/news/press-release/2026/10/28/commodity-markets-outlook-october-2026"
+            },
+            {
+              "points": 0,
+              "title": "The Commodity Markets Outlook in eight charts (World Bank, October 30)",
+              "url": "https://blogs.worldbank.org/en/developmenttalk/the-commodity-markets-outlook-in-eight-charts4"
+            },
+            {
+              "points": 0,
+              "title": "Oceanic Niño Index, monthly (NOAA Climate Prediction Center)",
+              "url": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt"
+            },
+            {
+              "points": 0,
+              "title": "Indonesia's choking haze provides a spark for wider protests (Guardian, October 29)",
+              "url": "https://www.theguardian.com/world/2026/oct/29/indonesia-protests-fire-haze-economy"
+            },
+            {
+              "points": 0,
+              "title": "Mexico's economy grows 0.9 percent in the third quarter (Expansión, October 30)",
+              "url": "https://expansion.mx/economia/2026/10/30/pib-de-mexico-crece-0-9-en-tercer-trimestre-inegi"
+            },
+            {
+              "points": 0,
+              "title": "Illegal gold mining outlives the crackdown in South Africa (Guardian, October 30)",
+              "url": "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg"
+            }
+          ],
+          "chart": {
+            "title": "The super El Niño, season by season",
+            "subtitle": "NOAA Oceanic Niño Index, three-month mean anomaly in the Niño 3.4 region, December 2024 to October 2026",
+            "suffix": "°C",
+            "decimals": 2,
+            "tick_decimals": 1,
+            "y_min": -1,
+            "y_max": 3,
+            "highlight_from": "2026-01-15",
+            "highlight_label": "2026",
+            "series": [
+              {
+                "name": "Oceanic Niño Index",
+                "points": [
+                  [
+                    "2025-01-15",
+                    -0.46
+                  ],
+                  [
+                    "2025-02-15",
+                    -0.22
+                  ],
+                  [
+                    "2025-03-15",
+                    -0.08
+                  ],
+                  [
+                    "2025-04-15",
+                    0.02
+                  ],
+                  [
+                    "2025-05-15",
+                    -0.04
+                  ],
+                  [
+                    "2025-06-15",
+                    -0.02
+                  ],
+                  [
+                    "2025-07-15",
+                    -0.11
+                  ],
+                  [
+                    "2025-08-15",
+                    -0.26
+                  ],
+                  [
+                    "2025-09-15",
+                    -0.43
+                  ],
+                  [
+                    "2025-10-15",
+                    -0.57
+                  ],
+                  [
+                    "2025-11-15",
+                    -0.61
+                  ],
+                  [
+                    "2025-12-15",
+                    -0.6
+                  ],
+                  [
+                    "2026-01-15",
+                    -0.39
+                  ],
+                  [
+                    "2026-02-15",
+                    -0.21
+                  ],
+                  [
+                    "2026-03-15",
+                    0.11
+                  ],
+                  [
+                    "2026-04-15",
+                    0.46
+                  ],
+                  [
+                    "2026-05-15",
+                    0.95
+                  ],
+                  [
+                    "2026-06-15",
+                    1.39
+                  ],
+                  [
+                    "2026-07-15",
+                    1.8
+                  ],
+                  [
+                    "2026-08-15",
+                    2.16
+                  ],
+                  [
+                    "2026-09-15",
+                    2.46
+                  ]
+                ]
+              }
+            ],
+            "source": "NOAA Climate Prediction Center",
+            "source_url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php"
+          }
+        },
+        "geopolitics": {
+          "state": "elevated",
+          "headline": "Israel's election leaves Netanyahu's bloc eight seats short, with Arab-led parties holding a record 19.",
+          "summary": "Israel's election on October 27 left Benjamin Netanyahu's Likud-led bloc with 53 Knesset seats, eight short of the 61 needed to govern, and Gadi Eisenkot's opposition bloc with 48, with the two Arab-led lists holding a record 19 seats on turnout of 77.98 percent. Netanyahu remains caretaker prime minister. In Sudan, a military drone strike on a market in Nyala killed more than 100 people on October 26, according to Emergency Lawyers. Flávio Bolsonaro flew to Miami on October 28 and called himself the 'leader of Brazil' after losing by 4.43 million votes. A six-day ceasefire in Oleshky held until November 1 and let a 25-vehicle convoy evacuate civilians, and thousands marched in Delhi against India's election commissioner.",
+          "implication": "Evacuees from Oleshky travelled via Anapa in Russia and by air to Belarus before crossing into Ukraine's Chernihiv region, a route of more than 1,000 miles.",
+          "evidence": [
+            "Knesset Central Elections Committee results: Likud 27 seats on 20.51 percent, Yashar 21 on 16.05 percent, Together 12, Joint List 11, Democrats 8, Ra'am 8, Yisrael Beiteinu 7, Otzma Yehudit 7, UTJ 7, Shas 6, RZP-Zehut 6. Turnout was 77.98 percent, with 5,717,397 votes cast of 7,331,981 eligible.",
+            "Blocs: Netanyahu (Likud, Otzma Yehudit, UTJ, Shas, RZP-Zehut) 53; Eisenkot (Yashar, Together, Democrats, Yisrael Beiteinu) 48; Arab-led (Joint List, Ra'am) 19. Likud won 27 seats. Final certification came on November 4 and the Knesset was sworn in on November 10, both after the week.",
+            "The BBC reported on October 26 that Netanyahu had used the campaign to talk up a fresh attack on Iran, and that Trump endorsed him and said both men should 'soon finish the job'. It also reported contradictory accounts of whether Trump had restrained Netanyahu before polling day, and that Eisenkot had ruled out a unity government and warned against escalating the war for political purposes.",
+            "Sudan: Emergency Lawyers counted more than 100 killed and 113 wounded in the October 26 strike on a market in Nyala, South Darfur, and said many were women and children. Medecins Sans Frontieres said its Nyala hospital received 36 bodies and that staff saw 150 wounded in its emergency room, a lower count. The strike was by a Sudanese armed forces drone, not the Rapid Support Forces.",
+            "Brazil: Flávio Bolsonaro entered Argentina by land on October 27, flew from Puerto Iguazú via Guayaquil and landed at Miami-Opa Locka on October 28. He first called himself the 'true president', deleted that letter and republished it as 'the leader of Brazil'. His party recognised Lula's victory.",
+            "Oleshky: the truce began October 27 and ran six days. A convoy including 25 buses and ambulances reached the city on October 30, not October 29. About 2,000 people remain, including about 50 children. Russia reportedly refused an offer to extend the truce after Kyiv proposed it, and the truce expired at 10:59pm Kyiv time on November 1.",
+            "India: thousands marched in New Delhi on November 1 demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with Rahul Gandhi leading. Opposition parties say the voter-roll revision removed more than 130 million names; the Election Commission denies favouring any party and says removed voters can re-register."
+          ],
+          "items": [
+            {
+              "title": "Coalition talks loom in Israel as Netanyahu and Eisenkot blocs set to fall short of majority (Guardian, October 28)",
+              "url": "https://www.theguardian.com/world/2026/oct/28/israel-election-exit-polls-suggest-netanyahu-eisenkot-blocs-tied-ntwnfb",
+              "comment": "Final results gave Netanyahu's bloc 53 seats and Eisenkot's 48, with the Joint List and Ra'am holding a record 19 on turnout of 77.98 percent. Netanyahu stays on as caretaker, and the campaign promise of a fresh strike on Iran now depends on a prime minister without a majority."
+            },
+            {
+              "title": "Strike on Darfur market killed civilians selling food to fighters, witnesses say (AP, October 28)",
+              "url": "https://apnews.com/article/sudan-darfur-nyala-market-attack-012abd09b3cd9ca20a733f5eb114d588",
+              "comment": "Emergency Lawyers counted more than 100 killed and 113 wounded in the October 26 drone strike on Nyala's market, while Medecins Sans Frontieres reported 36 bodies at its hospital. The air force belongs to the army the US and Saudi Arabia are courting, so the strike lands inside a diplomatic coalition."
+            },
+            {
+              "title": "Flavio Bolsonaro calls himself the 'leader of Brazil' after fleeing to Miami (Guardian, October 28)",
+              "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+              "comment": "Bolsonaro lost by 4.43 million votes, entered Argentina by land and landed in Florida on October 28, where he first called himself the 'true president' and then the 'leader of Brazil'. His party recognised Lula's victory, and the courts rejected his fraud claim, so it now survives only in exile."
+            },
+            {
+              "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky (Guardian, October 30)",
+              "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+              "comment": "A truce that both sides kept for six days let a convoy of 25 buses and ambulances reach Oleshky on October 30 and begin moving out civilians, about 2,000 of whom remain. The exit route ran through Russia and Belarus, with Ukrainian-held territory three miles away but unreachable by road, and Russia reportedly refused to extend the truce past November 1."
+            },
+            {
+              "title": "Thousands rally in New Delhi to demand India's election chief resign (Al Jazeera, November 1)",
+              "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign",
+              "comment": "Opposition parties say a voter-roll revision removed more than 130 million names, disproportionately from Muslims and other groups unlikely to back the BJP, a claim the Election Commission denies. The fight has moved from policy to the machinery of the election itself, which is the same institutional contest we have tracked in Washington and Brasilia."
+            }
+          ],
+          "links": [
+            {
+              "points": 0,
+              "title": "Coalition talks loom in Israel as Netanyahu and Eisenkot blocs set to fall short of majority (Guardian, October 28)",
+              "url": "https://www.theguardian.com/world/2026/oct/28/israel-election-exit-polls-suggest-netanyahu-eisenkot-blocs-tied-ntwnfb"
+            },
+            {
+              "points": 0,
+              "title": "Israel and the US are both going to the polls (BBC, October 26)",
+              "url": "https://www.bbc.com/news/articles/crlykey9jywqo"
+            },
+            {
+              "points": 0,
+              "title": "Knesset Central Elections Committee, official results (CEC, October 2026)",
+              "url": "https://votes26.bechirot.gov.il/nationalresults?lang=en"
+            },
+            {
+              "points": 0,
+              "title": "Strike on Darfur market killed civilians selling food to fighters, witnesses say (AP, October 28)",
+              "url": "https://apnews.com/article/sudan-darfur-nyala-market-attack-012abd09b3cd9ca20a733f5eb114d588"
+            },
+            {
+              "points": 0,
+              "title": "Flavio Bolsonaro calls himself the 'leader of Brazil' after fleeing to Miami (Guardian, October 28)",
+              "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat"
+            },
+            {
+              "points": 0,
+              "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky (Guardian, October 30)",
+              "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky"
+            },
+            {
+              "points": 0,
+              "title": "Thousands rally in New Delhi to demand India's election chief resign (Al Jazeera, November 1)",
+              "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+            },
+            {
+              "points": 0,
+              "title": "Bulgaria's Yotova wins the presidential runoff (DW, November 1)",
+              "url": "https://www.dw.com/en/bulgarians-vote-in-highly-polarized-presidential-runoff-overshadowed-by-ukraine-war/a-79820449"
+            }
+          ]
+        },
+        "markets": {
+          "state": "mixed",
+          "headline": "Alphabet's cash burn, not the Fed, cracks the AI trade and sends money into Treasuries.",
+          "summary": "Alphabet reported on October 28 that third-quarter revenue rose 25 percent to $127.58 billion while capital spending reached $51.36 billion and free cash flow turned negative $9.07 billion; the shares fell 12.6 percent the next day, their worst on record. Intel fell 29 percent on October 30 and the Nasdaq lost 2.86 percent that day. The ten-year Treasury yield still fell six basis points on the week to 4.94 percent, and the two-year fell thirteen basis points to 4.56, even after the Fed, under Chair Kevin Warsh, held at 3.75 to 4.00 percent with two dissents for a hike, third-quarter GDP grew 3.4 percent and September PCE inflation ran at 3.6 percent. December silver fell 8.6 percent to $49.276 as margin calls forced liquidation.",
+          "implication": "Five central banks met in three days and none cut: Canada raised its policy rate to 2.50 percent, while the RBNZ, ECB and Bank of Japan held.",
+          "evidence": [
+            "Alphabet: revenue $127.58 billion against $128.22 billion expected, adjusted EPS $2.67 against $3.02, free cash flow negative $9.07 billion against about negative $2.70 billion expected, capital spending $51.36 billion, and 2026 capex guidance held at $195-205 billion with a significant increase signalled for 2027.",
+            "October 30: S&P 500 fell 1.82 percent to 7,580.07, the Nasdaq Composite 2.86 percent to 25,437.00 and the Dow 1.09 percent. Intel fell 29 percent, its worst day since 1974, after weak fourth-quarter guidance. The chip index fell 7.2 percent; Nvidia fell 4.2 percent and AMD 10.9 percent. Apple's week was hardware: the M6 MacBook Pro and iMac on October 27 and the MacBook Pro with PROLED XDR display on October 28.",
+            "FOMC, October 28: the target range was held at 3.75 to 4.00 percent on a 10-2 vote, with Lisa Cook and Beth Hammack preferring a quarter-point increase. The statement said activity is 'expanding at a strong pace' and that 'inflation remains elevated'. Chair Kevin Warsh said 'politics played no role in the decision'.",
+            "Other central banks: the Bank of Canada raised its policy rate 25 basis points to 2.50 percent on October 28, its first increase since July 2023. The RBNZ held at 2.75 percent on a 4-3 vote, the ECB held its deposit rate at 2.50 percent on October 29, and the Bank of Japan held at 1.25 percent on an 8-1 vote on October 30, with Hajime Takata preferring 1.5 percent.",
+            "US data, October 29: real GDP grew 3.4 percent annualised in the third quarter from 2.2 percent, and September PCE prices rose 0.5 percent on the month and 3.6 percent from a year earlier, with core PCE at 3.1 percent. The gross domestic purchases price index rose 3.0 percent, and real final sales to private domestic purchasers rose 4.9 percent.",
+            "Metals: December gold fell 2.7 percent to $3,898.90, with a 3.3 percent drop on October 30; spot gold fell to $3,869.85, its lowest since October 2025. December silver fell 8.6 percent to $49.276, 5.9 percent of it on October 30, and traded below $50 for the first time since November 2025. By midday New York, COMEX futures covering 236 million ounces of silver had traded. Reporting attributes the move to margin calls and forced selling, not dollar strength; the dollar index was flat at 101.88.",
+            "Credit: high-yield OAS widened from 3.40 to 3.44 percent. CoreWeave's five-year CDS traded above 1,100 basis points, its bonds yielded about 15-16 percent and IFR reported that five data-centre IPOs had been pulled or delayed. IFR reported that five data-centre IPOs had been pulled or delayed.",
+            "Rates: 2-year 4.69 to 4.56 percent, 10-year 5.00 to 4.94, 30-year 5.31, 10-year TIPS 2.60, five-year breakeven 2.46, 10s-2s 38 basis points and 10-year minus three-month 78 basis points. Auctions: $69 billion of 2-year notes at 4.708 percent with 2.59 bid-to-cover, $70 billion of 5-year notes at 4.845 percent with 2.33, and $44 billion of 7-year notes at 4.894 percent with 2.46.",
+            "December hike odds: CME FedWatch put a quarter-point increase at 71.4 percent on October 30, while Polymarket fell from about 80 cents before the decision to 72.5 cents by November 2. GDPNow put fourth-quarter growth at 3.2 percent on October 29, Freddie Mac's 30-year mortgage averaged 7.24 percent on October 29, and AAA's national petrol average was $4.22 a gallon."
+          ],
+          "signals": {
+            "trend": "DOWN",
+            "vol": 19.4,
+            "curve_bp": 38,
+            "gdpnow": 3.2,
+            "dollar": "Flat (101.9)",
+            "credit": "Widening (3.44%)",
+            "liquidity": "DRAINED",
+            "crypto": "SOFTER"
+          },
+          "links": [
+            {
+              "points": 0,
+              "title": "Wall Street closes sharply lower as AI cash burn fears spark a tech selloff (Reuters, October 30)",
+              "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30"
+            },
+            {
+              "points": 0,
+              "title": "Federal Reserve issues FOMC statement (Federal Reserve, October 28)",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+            },
+            {
+              "points": 0,
+              "title": "GDP, advance estimate for the third quarter (BEA, October 29)",
+              "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+            },
+            {
+              "points": 0,
+              "title": "Bank of Canada raises the policy rate to 2.50 percent (Bank of Canada, October 28)",
+              "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+            },
+            {
+              "points": 0,
+              "title": "ECB monetary policy decisions (ECB, October 29)",
+              "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+            }
+          ],
+          "chart": {
+            "title": "Silver breaks $50",
+            "subtitle": "December silver futures, daily close, dollars an ounce, October 12 to October 30",
+            "prefix": "$",
+            "decimals": 2,
+            "tick_decimals": 0,
+            "highlight_from": "2026-10-26",
+            "highlight_label": "this issue's week",
+            "series": [
+              {
+                "name": "December silver",
+                "points": [
+                  [
+                    "2026-10-12",
+                    60.513
+                  ],
+                  [
+                    "2026-10-13",
+                    59.525
+                  ],
+                  [
+                    "2026-10-14",
+                    55.877
+                  ],
+                  [
+                    "2026-10-15",
+                    57.156
+                  ],
+                  [
+                    "2026-10-16",
+                    57.305
+                  ],
+                  [
+                    "2026-10-19",
+                    57.273
+                  ],
+                  [
+                    "2026-10-20",
+                    58.0
+                  ],
+                  [
+                    "2026-10-21",
+                    57.71
+                  ],
+                  [
+                    "2026-10-22",
+                    55.007
+                  ],
+                  [
+                    "2026-10-23",
+                    53.949
+                  ],
+                  [
+                    "2026-10-26",
+                    54.341
+                  ],
+                  [
+                    "2026-10-27",
+                    54.513
+                  ],
+                  [
+                    "2026-10-28",
+                    53.666
+                  ],
+                  [
+                    "2026-10-29",
+                    52.38
+                  ],
+                  [
+                    "2026-10-30",
+                    49.276
+                  ]
+                ]
+              }
+            ],
+            "source": "Yahoo Finance",
+            "source_url": "https://finance.yahoo.com/quote/SI=F"
+          }
+        }
+      },
+      "momentum": {
+        "weeks": [
+          "Oct 25",
+          "Nov 1"
+        ],
+        "series": {
+          "ai_compute": [
+            16,
+            19
+          ],
+          "geopolitics": [
+            2,
+            2
+          ],
+          "markets": [
+            1,
+            1
+          ]
+        }
+      },
+      "market_moves": [
+        {
+          "market": "December silver",
+          "dir": "down",
+          "detail": "From $54.513 on October 27 to $49.276 on October 30, a 9.6 percent three-day fall and the first close below $50 since November 2025. COMEX futures covering 236 million ounces traded by midday on October 30 as margin calls forced liquidation.",
+          "url": "https://www.reuters.com/world/india/gold-slips-higher-oil-us-inflation-data-bolster-fed-hike-bets-2026-10-30"
+        },
+        {
+          "market": "A Fed rate increase in December (Polymarket)",
+          "dir": "down",
+          "detail": "From about 80 cents before the October 28 decision to 71.5 cents at the October 29 close and 72.5 cents by November 2, even after two policymakers dissented for a hike. CME FedWatch put the increase at 71.4 percent on October 30.",
+          "url": "https://polymarket.com/event/fed-decision-in-december-2026"
+        }
+      ],
+      "commodities": {
+        "as_of": "2026-10-30",
+        "min_change": 2.5,
+        "headline": "Silver falls 8.6 percent as margin calls hit the metals, and wheat slips 3.4 percent.",
+        "summary": "December silver fell 8.66 percent to $49.276 in the week to October 30, breaking below $50 for the first time since November 2025, and December gold fell 2.69 percent to $3,898.90, its lowest since October 2025, as the equity selloff forced margin calls. December wheat fell 3.44 percent to $6.035 a bushel. Brent's December contract expired at $117.64 on October 30, up 0.8 percent on the week and its highest settlement since April, after trading above $118 on expectations of escalation in the Iran war, and OPEC+ kept December quotas at September levels on November 1. Natural gas rose 9.8 percent on the continuous series, a November-to-December roll; the December contract fell on the week.",
+        "items": [
+          {
+            "name": "Silver (December)",
+            "level": "49.276",
+            "change": "-8.66%"
+          },
+          {
+            "name": "Gold (December)",
+            "level": "3,898.90",
+            "change": "-2.69%"
+          },
+          {
+            "name": "Wheat (December)",
+            "level": "603.50",
+            "change": "-3.44%"
+          }
+        ],
+        "links": [
+          {
+            "points": 0,
+            "title": "Gold falls below $3,900, silver tumbles as Wall Street selloff triggers liquidation (Kitco, October 30)",
+            "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers"
+          },
+          {
+            "points": 0,
+            "title": "OPEC+ keeps December oil output targets steady (Reuters, November 1)",
+            "url": "https://www.reuters.com/business/energy/opec-set-keep-oil-output-targets-steady-sources-say-2026-11-01"
+          },
+          {
+            "points": 0,
+            "title": "Natural gas storage report for the week ended October 23 (EIA, October 29)",
+            "url": "https://www.eia.gov/dnav/ng/ng_stor_wkly_s1_w.htm"
+          }
+        ],
+        "chart": {
+          "title": "Brent's December contract ends at $117.64",
+          "subtitle": "December Brent futures, daily close, dollars a barrel, October 12 to October 30",
+          "prefix": "$",
+          "decimals": 2,
+          "tick_decimals": 0,
+          "highlight_from": "2026-10-26",
+          "highlight_label": "this issue's week",
+          "series": [
+            {
+              "name": "December Brent",
+              "points": [
+                [
+                  "2026-10-12",
+                  106.65
+                ],
+                [
+                  "2026-10-13",
+                  105.69
+                ],
+                [
+                  "2026-10-14",
+                  106.06
+                ],
+                [
+                  "2026-10-15",
+                  105.92
+                ],
+                [
+                  "2026-10-16",
+                  109.86
+                ],
+                [
+                  "2026-10-19",
+                  109.55
+                ],
+                [
+                  "2026-10-20",
+                  108.79
+                ],
+                [
+                  "2026-10-21",
+                  108.82
+                ],
+                [
+                  "2026-10-22",
+                  113.17
+                ],
+                [
+                  "2026-10-23",
+                  116.72
+                ],
+                [
+                  "2026-10-26",
+                  115.81
+                ],
+                [
+                  "2026-10-27",
+                  113.88
+                ],
+                [
+                  "2026-10-28",
+                  115.32
+                ],
+                [
+                  "2026-10-29",
+                  114.88
+                ],
+                [
+                  "2026-10-30",
+                  117.64
+                ]
+              ]
+            }
+          ],
+          "source": "Yahoo Finance",
+          "source_url": "https://finance.yahoo.com/quote/BZZ26.NYM"
+        }
+      },
+      "undercurrent": {
+        "label": "Undercurrent",
+        "headline": "The watchers were documented, the ruling was not, and the watchlists leaked.",
+        "summary": "Discovery filings in the Minnesota 15 prosecution show Homeland Security Investigations ran Project Whipple Shield and Operation Puppet Master against anti-ICE organizers with 119 agents, 11 of them undercover, Reaper drone footage, 15 terabytes of infiltrated Signal chats and Patriot Act 314(a) queries into 29 people. On October 26, two senators said the administration was illegally withholding a FISA court ruling on Section 702 that found its search filters amount to searches of Americans. Two days later, DDoSecrets published Icepick, 41,000 DHS records from an Okta system, including undercover groups. The watchers are documented, the oversight is secret, and the watchlists leak.",
+        "links": [
+          {
+            "points": 1201,
+            "title": "ICE is running one of the largest anti-left surveillance operations in US history (Wired, October 28)",
+            "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/"
+          },
+          {
+            "points": 1099,
+            "title": "The US government is hiding a secret court ruling about how it spies on Americans (Wired, October 26)",
+            "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/"
+          },
+          {
+            "points": 473,
+            "title": "Massive leak exposes 41,000 Homeland Security workers, including undercover ICE agents (Wired, October 28)",
+            "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/"
+          }
+        ]
+      },
+      "wildcard": {
+        "topic": "Crypto and fintech",
+        "headline": "TraderTraitor took $6.3 billion from Binance in twenty minutes, and stablecoin issuers froze $2.67 billion.",
+        "summary": "North Korea's TraderTraitor unit took about $6.3 billion from Binance on October 29, the largest crypto theft on record. Transfers began around 4pm ET and most of the money left within twenty minutes: five XRP Ledger wallets were emptied between 20:05 and 20:09 UTC, 18,270 BTC moved at 20:20, and on Ethereum the attacker used 50 pre-signed EIP-7702 authorizations to turn a Binance hot wallet into a sweeper it controlled. TRM puts the total at $6.36 billion at theft prices across ten chains and blames Binance's hot-wallet signing system. Tether, Circle, Ripple and World Liberty Financial froze about $2.67 billion of stablecoins, and Arbitrum's security council froze $30 million more; the attacker still holds roughly $2.4 billion in bitcoin and ether. Binance suspended withdrawals and reopened them on November 1.",
+        "links": [
+          {
+            "points": 601,
+            "title": "The $6.3 billion Binance hack was pulled off in 20 minutes (Wired, October 30)",
+            "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/"
+          },
+          {
+            "points": 0,
+            "title": "North Korea steals $6.36 billion from Binance in the largest hack in history (TRM Labs, October 29)",
+            "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history"
+          },
+          {
+            "points": 0,
+            "title": "The $6.4 billion Binance hack: tracing the North Korea link (Chainalysis, October 30)",
+            "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+          },
+          {
+            "points": 0,
+            "title": "Binance loses more than $6 billion in the biggest crypto hack in history (CoinDesk, October 29)",
+            "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+          },
+          {
+            "points": 0,
+            "title": "Investors pull billions in funds from Binance after the record hack (Guardian, November 1)",
+            "url": "https://www.theguardian.com/business/2026/nov/01/investors-take-out-36bn-from-binance-after-record-hack-that-stole-billions"
+          },
+          {
+            "points": 0,
+            "title": "Bitcoin ETFs shed $643 million in the biggest daily outflow since June (crypto.news, October 31)",
+            "url": "https://crypto.news/bitcoin-etfs-643-million-outflows-october-30/"
+          }
+        ],
+        "items": [
+          {
+            "title": "The CFTC uses the breach to argue for its exchange rules (CNBC, October 30)",
+            "url": "https://www.cnbc.com/video/2026/10/30/cftc-chair-on-binance-hack-these-are-unregulated-offshare-exchanges.html",
+            "comment": "Chairman Michael Selig told CNBC the breach 'proves our exact point' about the crypto rules the agency floated on October 5, an advance notice that would offer offshore exchanges an optional federal registration path. It predates the hack by more than three weeks."
+          }
+        ]
+      },
+      "across_sources": {
+        "github_theme": "a week of orchestration over scale: memdoor's five Qwen agents, the Claude Code token-audit hook, and OpenAI's mathematics preprints.",
+        "github": [
+          {
+            "title": "guregodevo/memdoor",
+            "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve"
+          },
+          {
+            "title": "flamerix-ai Claude Code token audit",
+            "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
+          },
+          {
+            "title": "openai/math",
+            "url": "https://github.com/openai/math"
+          },
+          {
+            "title": "herdrdev/herdr-app",
+            "url": "https://github.com/herdrdev/herdr-app"
+          }
+        ]
+      },
+      "briefs": [
+        {
+          "title": "US finalises its accreditation overhaul (Federal Register, October 30)",
+          "url": "https://www.federalregister.gov/documents/2026/10/30/2026-22174/accreditation-innovation-and-modernization-the-secretarys-recognition-of-accrediting-agencies",
+          "comment": "The rule, effective July 1, 2027, removes the two-year waiting period for new accreditors and geographic limits on their scope, and requires written reasons when a college refuses transfer credit."
+        },
+        {
+          "title": "Colleges urge the IRS to withdraw a tax-exemption rule (ACE, October 29)",
+          "url": "https://www.acenet.edu/News-Room/Pages/Higher-Ed-Groups-Urge-IRS-Withdraw-Tax-Exempt-Status-Rule.aspx",
+          "comment": "ACE and more than 40 associations say the September proposal, which could reach 18,000 private schools, exceeds the agency's authority and exposes colleges to politically motivated enforcement."
+        },
+        {
+          "title": "A humanist wins a religious exemption from using AI at work (Gizmodo, October 29)",
+          "url": "https://gizmodo.com/man-who-identifies-as-a-humanist-gets-religious-exemption-from-using-ai-at-work-2000832513",
+          "comment": "David Durman, a 45-year-old research administrator, won a Title VII accommodation after arguing that required use of ChatGPT or Copilot conflicts with his belief in human flourishing, though he may still attend meetings where colleagues use AI."
+        },
+        {
+          "title": "Discord will put Discoverable Server messages into web search (Discord, October 27)",
+          "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+          "comment": "From November 16 the 63,000 Discoverable Servers get public pages, and from mid-December messages in public channels can appear in search results, switched on by default outside the EU, UK, Canada, Brazil, Australia and South Korea."
+        },
+        {
+          "title": "Lenovo's 'encrypted' fingerprint USB was a plain SD card (Tom's Hardware, updated November 3)",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products",
+          "comment": "Researcher Xusheng Li found last year that the ThinkPlus FU100's fingerprint reader only switched on the USB connection, leaving files unencrypted on a microSD card; Lenovo says the mainland-China-only drives were remediated and three CVEs were published in January."
+        },
+        {
+          "title": "Lagarde to leave the ECB on February 7, 2027 (ECB, October 29)",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+          "comment": "Christine Lagarde said she 'cannot remain neutral' and would step down eight months before her term ends, the same day the ECB held its deposit rate at 2.50 percent."
+        }
+      ],
+      "structural_regimes": [
+        {
+          "name": "Global monetary tightening",
+          "direction": "the long end rallies through a 3.6 percent inflation print",
+          "read": "The ten-year yield fell six basis points to 4.94 percent and the two-year nine to 4.56, even after September PCE inflation ran at 3.6 percent and two Fed voters dissented for a hike. Five central banks met in three days and none cut: Canada raised to 2.50 percent, while the RBNZ, ECB and Bank of Japan held. The 10s-2s curve steepened to 38 basis points.",
+          "spotlight": true,
+          "basket": [
+            {
+              "metric": "Ten-year Treasury yield",
+              "value": "4.94% on October 30, from 5.00% on October 23",
+              "url": "https://fred.stlouisfed.org/series/DGS10"
+            },
+            {
+              "metric": "Two-year Treasury yield",
+              "value": "4.56% on October 30, from 4.65%",
+              "url": "https://fred.stlouisfed.org/series/DGS2"
+            },
+            {
+              "metric": "Ten-year inflation-protected yield",
+              "value": "2.60% on October 30, from 2.66%",
+              "url": "https://fred.stlouisfed.org/series/DFII10"
+            },
+            {
+              "metric": "High-yield option-adjusted spread",
+              "value": "3.44% on October 30, from 3.40%",
+              "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+            },
+            {
+              "metric": "Ten-year minus three-month bill",
+              "value": "78 basis points on October 30, unchanged from 78",
+              "url": "https://fred.stlouisfed.org/series/T10Y3M"
+            }
+          ]
+        },
+        {
+          "name": "Energy as the inflation swing factor",
+          "direction": "the war premium survives an OPEC+ hold",
+          "read": "Brent's December contract expired at $117.64 on October 30, up 2.4 percent on the day and its highest settlement since April, after touching $118 on expectations of escalation ahead of the November 3 midterms. OPEC+ kept December required production at September levels, 31.01 million barrels a day for its seven voluntary-cut members, and next meets on November 29.",
+          "spotlight": true,
+          "basket": [
+            {
+              "metric": "Brent crude, December contract",
+              "value": "$117.64 on October 30, from $116.72; +0.8%",
+              "url": "https://finance.yahoo.com/quote/BZ=F"
+            },
+            {
+              "metric": "WTI crude, December contract",
+              "value": "$104.12 on October 30, from $103.27; +0.8%",
+              "url": "https://finance.yahoo.com/quote/CL=F"
+            },
+            {
+              "metric": "OPEC+ December requirement",
+              "value": "31.01 million barrels a day, unchanged",
+              "url": "https://www.opec.org/pr-detail/620-1-november-2026.html"
+            },
+            {
+              "metric": "US average petrol price",
+              "value": "$4.22 a gallon on October 29, down 5 cents on the week",
+              "url": "https://gasprices.aaa.com/"
+            }
+          ]
+        },
+        {
+          "name": "AI capex and credit",
+          "direction": "the cash flow turns before the spending does",
+          "read": "Alphabet's free cash flow turned negative $9.07 billion in the quarter while capital spending reached $51.36 billion, and it signalled a significant rise for 2027. CoreWeave's bonds were already below 80 cents at yields above 16 percent and IFR had counted five data-centre IPOs pulled or delayed, so the financing channel closed before the buildout slowed.",
+          "spotlight": false,
+          "line": "Alphabet's negative free cash flow and CoreWeave's distressed bonds show the AI buildout's cash cost and its financing cost pressing against each other at once.",
+          "basket": [
+            {
+              "metric": "CoreWeave bonds and data-centre IPOs",
+              "value": "Bonds below 80 cents, yields above 16 percent; five IPOs pulled or delayed",
+              "url": "https://www.ifre.com/bonds/2502504/coreweave-rout-freezes-data-centre-financing"
+            }
+          ]
+        },
+        {
+          "name": "Trade fragmentation",
+          "direction": "the rare-earth clock runs down",
+          "read": "China's suspension of its October 2025 rare-earth export package lapses on November 10 with no published extension, and Washington's outbound-investment rule remains open for comment. The controls still cover capital and models as well as goods.",
+          "spotlight": false,
+          "line": "Beijing has published no extension of its rare-earth suspension, which lapses on November 10, while the Treasury's outbound-investment rule is still taking comments.",
+          "basket": [
+            {
+              "metric": "China rare-earth suspension",
+              "value": "lapses November 10, 2026, with no published extension",
+              "url": "https://www.fxstreet.com/analysis/chinas-rare-earth-leverage-has-an-expiration-date-november-10-heres-what-beijing-is-deciding-202610141348"
+            },
+            {
+              "metric": "Treasury outbound-investment rule",
+              "value": "published October 22, comment period open",
+              "url": "https://home.treasury.gov/news/press-releases/sb0667/"
+            }
+          ]
+        },
+        {
+          "name": "AI sovereignty and open weights",
+          "direction": "the weights ship, the licence gates the service",
+          "read": "Mistral released a one-trillion-parameter model under a modified MIT licence that still requires a commercial licence for model-as-a-service use, and Kimi K3.1 Pro's full weights had not shipped by November 1. The open-weight race is now about the licence attached to the weights.",
+          "spotlight": false,
+          "line": "Mistral's one-trillion-parameter release and Kimi's promised weights show the open-weight race moving to licence terms rather than closed checkpoints.",
+          "basket": [
+            {
+              "metric": "Mistral Large 4 parameters",
+              "value": "1 trillion total, about 52 billion active",
+              "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+            },
+            {
+              "metric": "Kimi K3.1 Pro weights",
+              "value": "promised by November 4; not shipped by November 1",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+            },
+            {
+              "metric": "DeepSeek V4.1-Flash downloads",
+              "value": "374,631 thirty-day count on November 13, from 85,275 on October 26",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+            }
+          ]
+        },
+        {
+          "name": "Dedollarization",
+          "direction": "a flat dollar and cheaper gold",
+          "read": "The dollar index ended the week at 101.88, barely changed from 101.81, and December gold fell 2.7 percent to $3,898.90, so the debasement trade's two legs moved together, downward.",
+          "spotlight": false,
+          "line": "A flat dollar and a 2.7 percent weekly fall in gold leave the debasement trade without either of its usual legs.",
+          "basket": [
+            {
+              "metric": "Dollar index (DXY)",
+              "value": "101.88 on October 30, from 101.81",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+            },
+            {
+              "metric": "Gold, December contract",
+              "value": "$3,898.90 on October 30, from $4,007.90; -2.7%",
+              "url": "https://finance.yahoo.com/quote/GC=F"
+            }
+          ]
+        }
+      ],
+      "watch_next": [
+        {
+          "when": "November 3",
+          "event": "US midterm elections",
+          "note": "Control of both chambers is at stake, and the vote opens the window that US and Israeli planners reportedly assumed for renewed strikes on Iran."
+        },
+        {
+          "when": "November 4",
+          "event": "Kimi K3.1 Pro's full weights are due",
+          "note": "Moonshot promised the weights with the October 23 launch; they had not shipped by November 1."
+        },
+        {
+          "when": "November 10",
+          "event": "China's suspension of its October 2025 rare-earth export package lapses",
+          "note": "Beijing has published no extension, and the Pentagon's magnet rule starts January 1, 2027."
+        },
+        {
+          "when": "November 18-19",
+          "event": "APEC summit in Shenzhen",
+          "note": "Putin has proposed a Trump-Putin-Xi meeting; the White House has not agreed."
+        },
+        {
+          "when": "November 24",
+          "event": "Quad9 stops serving French users",
+          "note": "The Paris Judicial Court ordered it to block domains beIN accuses of piracy or pay 1,000 euros a day."
+        },
+        {
+          "when": "November 29",
+          "event": "OPEC+ meeting and Spain's general election",
+          "note": "OPEC+ must set its 2027 framework; Spain votes with the energy shock still running."
+        },
+        {
+          "when": "December 9",
+          "event": "Bank of Canada decision",
+          "note": "After the first rate increase since July 2023, the bank said it would proceed carefully."
+        },
+        {
+          "when": "December 14-15",
+          "event": "G20 summit at Doral",
+          "note": "The US hosts the leaders' meeting in Florida."
+        }
+      ],
+      "annotations": [
+        {
+          "terms": [
+            "Benjamin Netanyahu",
+            "Netanyahu"
+          ],
+          "note": "Israel's longest-serving prime minister and Likud leader. After the October 27 election he remained caretaker prime minister while coalition talks began."
+        },
+        {
+          "terms": [
+            "Gadi Eisenkot"
+          ],
+          "note": "A former chief of the Israeli general staff who led the Yashar party in the October 27 election. His bloc won 48 seats."
+        },
+        {
+          "terms": [
+            "Likud"
+          ],
+          "note": "Israel's main centre-right party, led by Netanyahu. It won 27 seats, five fewer than in the 2022 election."
+        },
+        {
+          "terms": [
+            "Knesset"
+          ],
+          "note": "Israel's 120-seat parliament. A governing coalition needs 61 seats."
+        },
+        {
+          "terms": [
+            "Joint List",
+            "Ra'am"
+          ],
+          "note": "The two Arab-led lists in the Knesset. Together they won a record 19 seats in the October 27 election."
+        },
+        {
+          "terms": [
+            "Oleshky"
+          ],
+          "note": "A Russian-occupied city on the Dnipro in Ukraine's Kherson region, where a six-day ceasefire ran from October 27 to November 1."
+        },
+        {
+          "terms": [
+            "Nyala"
+          ],
+          "note": "The capital of South Darfur in Sudan, where a drone strike on a market killed more than 100 people on October 26."
+        },
+        {
+          "terms": [
+            "El Niño"
+          ],
+          "note": "A periodic warming of the central and eastern Pacific that shifts rainfall and raises food prices across the tropics."
+        },
+        {
+          "terms": [
+            "Oceanic Niño Index"
+          ],
+          "note": "NOAA's three-month average sea-surface temperature anomaly in the Niño 3.4 region, the standard measure of El Niño strength."
+        },
+        {
+          "terms": [
+            "Papua New Guinea"
+          ],
+          "note": "A Pacific island nation of about 10 million people, where drought has cut hydropower and food gardens."
+        },
+        {
+          "terms": [
+            "World Bank"
+          ],
+          "note": "The development lender that publishes a Commodity Markets Outlook twice a year, tracking energy, food and metals prices."
+        },
+        {
+          "terms": [
+            "TraderTraitor"
+          ],
+          "note": "A North Korean state-backed hacking unit, part of the Lazarus Group, blamed for major cryptocurrency thefts."
+        },
+        {
+          "terms": [
+            "EIP-7702"
+          ],
+          "note": "An Ethereum upgrade that lets an account delegate control to a smart contract, which the Binance attacker used with pre-signed authorizations."
+        },
+        {
+          "terms": [
+            "Tether",
+            "Circle"
+          ],
+          "note": "The issuers of USDT and USDC, the two largest dollar stablecoins, which can freeze tokens on their networks."
+        },
+        {
+          "terms": [
+            "Kevin Warsh"
+          ],
+          "note": "The chair of the Federal Reserve, who ran the October 28 press conference after the committee held rates."
+        },
+        {
+          "terms": [
+            "CoreWeave"
+          ],
+          "note": "A neocloud that rents out AI computing capacity, largely financed with debt."
+        },
+        {
+          "terms": [
+            "Section 702"
+          ],
+          "note": "A surveillance authority that lets US agencies collect communications of foreigners abroad, with query rules that a secret court ruling addressed."
+        },
+        {
+          "terms": [
+            "Gemini 4 Carbon"
+          ],
+          "note": "Google's October 28 frontier model, released first to vetted cyber defenders and partners rather than the public."
+        },
+        {
+          "terms": [
+            "S-1"
+          ],
+          "note": "The registration statement a company files with the US Securities and Exchange Commission before a public offering."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "week": "2026-11-02/2026-11-08",
+      "date": "2026-11-08",
+      "date_label": "November 2 – 8, 2026",
+      "partial": false,
+      "index_title": "Democrats win the House and the Senate, ending unified Republican control of Congress after just two years.",
+      "dek": "Gina Hinojosa unseated Greg Abbott in Texas, and voters backed data-centre limits in 40 of 41 local measures as early turnout ran 34 percent above 2022.",
+      "lede": "",
+      "brief": [
+        {
+          "lane": "AI & compute",
+          "anchor": "ai",
+          "line": "Voters backed data-centre limits in 40 of 41 ballot measures, and OpenAI promised not to ask local officials to sign non-disclosure agreements."
+        },
+        {
+          "lane": "Science & frontier",
+          "anchor": "deep-dive",
+          "line": "A PSI system running a non-public Anthropic model proved a quantum-computing conjecture open since 2008, and Lean checked every step."
+        },
+        {
+          "lane": "Geopolitics",
+          "anchor": "geopolitics",
+          "line": "Democrats won the House and the Senate, while Trump cancelled $4 billion a year in aid to Israel and Eisenkot won the mandate to govern."
+        },
+        {
+          "lane": "Markets",
+          "anchor": "markets",
+          "line": "The Nasdaq fell 5.5 percent in a day as the chip index lost 12.3 percent, and Brent fell 8.7 percent on the election result."
+        },
+        {
+          "lane": "Privacy and digital rights",
+          "anchor": "wildcard",
+          "line": "Claude Code wrote 1,379 real secrets into 1,122 public GitHub files when developers chose 'don't ask again'."
+        }
+      ],
+      "regimes": {
+        "ai_compute": {
+          "state": "consolidation",
+          "headline": "Voters in 40 of 41 local ballot measures put a gate in front of data centres.",
+          "summary": "Voters backed limits on data centres in 40 of 41 local ballot measures on November 3, including five outright bans, and 56 percent of voters in CNBC's voter poll called data centres a major factor in their decision. Two days later the Philadelphia semiconductor index fell 12.25 percent, its worst session since March 2020, as Qualcomm guided lower and investors read the Democratic sweep as slower permitting. OpenAI published a community compact on November 5 promising no non-disclosure agreements with public officials and full payment of its own power costs. Anthropic's IPO buyers discussed a valuation of $1.2 trillion to $1.3 trillion by November 6, down from the $1.5 trillion buyers had been expecting, and Nvidia's board opened an investigation into a foreign intelligence effort aimed at Jensen Huang.",
+          "implication": "The one measure that went the industry's way was in Harwood, North Dakota, where 24.4 percent voted for the extra review requirement and 75.6 percent voted against it. Of the 27 restrictions that passed, five were outright bans and 12 were partial bans.",
+          "evidence": [
+            "Ballotpedia counted 41 local data-centre contests in 10 states; voters backed restrictions or rejected pro-development measures in 40. The 27 restricting measures approved were five full bans, 12 partial bans, three six-month moratoriums, two zoning applications, two non-binding opposition measures, two voter-approval requirements and one financial-guarantee measure. The sole loss was Harwood, North Dakota, at 24.4 percent.",
+            "Semafor reported more than 30 localities across nine states voting for moratoriums, bans and other measures, including a charter ban in Edgewater, Florida, and constraints on hyperscalers seeking tax breaks in Perry, Ohio. Democrats in more than 130 federal and gubernatorial races aired anti-data-centre or anti-tech ads.",
+            "CNBC's voter poll found 56 percent called data centres a crucial or major factor in their decision. The service said 41 measures were on ballots in 10 states and Ohio alone had 21.",
+            "November 5: Nasdaq Composite -5.52 percent to 24,315.00, S&P 500 -4.36 percent to 7,353.73, PHLX Semiconductor Index -12.25 percent, SMH -11.21 percent. Nvidia -9.26 percent to $181.60, Micron -17.46, AMD -17.26. Qualcomm had guided lower after the close on November 4, with the memory shortage squeezing supply and costs. Arm's revenue outlook came in slightly above estimates, though memory pricing was dragging its phone royalties.",
+            "OpenAI's National Community Compact, published November 5, says that for company-owned data centres it will avoid non-disclosure agreements with public officials, publish construction plans, seek community input and pay the full cost of power. Chief Global Affairs Officer Chris Lehane said the policy had been in the works since August.",
+            "Bloomberg reported on November 6 that Anthropic IPO buyers were discussing a $1.2 trillion to $1.3 trillion valuation, with some weighing $1.1 trillion, against the $1.5 trillion buyers had been expecting; October talk had run as high as $2 trillion. The price range was not set until November 10, after the week.",
+            "Nvidia's board said on November 8 that it was opening an independent investigation 'in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort'. It said it had no reason to believe national security or company secrets were compromised. Huang's staff email the same day admitted an affair and said he would cooperate.",
+            "Kimi K3.1 Pro's full weights shipped by November 4: 2.8 trillion total parameters, 104 billion active, a 1,048,576-token context, and a custom licence requiring a separate agreement for model-as-a-service businesses above $20 million in rolling annual revenue. Moonshot said it removed cyber data from the open release, cutting its internal exploit benchmark from 90.5 to 81.0.",
+            "Apiiro found 1,379 real secrets in 1,122 public copies of Claude Code's permission file, part of 2,539 secrets across 1,994 repositories. Anthropic's Boris Cherny said the file is meant to stay local and is gitignored when Claude creates it, so the exposed copies were manually created and checked in; Apiiro says a commit Claude co-authored changed the file in 539 of the 1,105 repositories with a real secret that it traced.",
+            "Microsoft Research's AI Frontiers group, about 50 people, was folded into Microsoft AI in early September and Langford writes that every other founding leader of the group reached a similar conclusion, John Langford wrote on November 6. He described the new leadership's philosophy as 'scaling, and aggressively not research'."
+          ],
+          "links": [
+            {
+              "points": 350,
+              "title": "US voters roundly reject data centres in ballot measures (Semafor, November 4)",
+              "url": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures"
+            },
+            {
+              "points": 0,
+              "title": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025 (CNBC, November 5)",
+              "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+            },
+            {
+              "points": 322,
+              "title": "Anthropic IPO buyers see a valuation as low as $1.1 trillion (Bloomberg, November 6)",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+            },
+            {
+              "points": 493,
+              "title": "Statement from the Nvidia board of directors (Nvidia, November 8)",
+              "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+            },
+            {
+              "points": 0,
+              "title": "OpenAI pledges to halt NDAs in a new data-centre policy (CNBC, November 5)",
+              "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html"
+            }
+          ],
+          "chart": {
+            "title": "Chips give back the election bounce",
+            "subtitle": "VanEck Semiconductor ETF, daily close, dollars, October 12 to November 6",
+            "prefix": "$",
+            "decimals": 2,
+            "tick_decimals": 0,
+            "highlight_from": "2026-11-02",
+            "highlight_label": "this issue's week",
+            "series": [
+              {
+                "name": "SMH",
+                "points": [
+                  [
+                    "2026-10-12",
+                    590.99
+                  ],
+                  [
+                    "2026-10-13",
+                    588.12
+                  ],
+                  [
+                    "2026-10-14",
+                    564.74
+                  ],
+                  [
+                    "2026-10-15",
+                    558.84
+                  ],
+                  [
+                    "2026-10-16",
+                    539.79
+                  ],
+                  [
+                    "2026-10-19",
+                    548.46
+                  ],
+                  [
+                    "2026-10-20",
+                    546.36
+                  ],
+                  [
+                    "2026-10-21",
+                    556.7
+                  ],
+                  [
+                    "2026-10-22",
+                    523.35
+                  ],
+                  [
+                    "2026-10-23",
+                    527.2
+                  ],
+                  [
+                    "2026-10-26",
+                    541.62
+                  ],
+                  [
+                    "2026-10-27",
+                    557.98
+                  ],
+                  [
+                    "2026-10-28",
+                    567.67
+                  ],
+                  [
+                    "2026-10-29",
+                    561.67
+                  ],
+                  [
+                    "2026-10-30",
+                    522.49
+                  ],
+                  [
+                    "2026-11-02",
+                    508.31
+                  ],
+                  [
+                    "2026-11-03",
+                    518.52
+                  ],
+                  [
+                    "2026-11-04",
+                    504.27
+                  ],
+                  [
+                    "2026-11-05",
+                    447.73
+                  ],
+                  [
+                    "2026-11-06",
+                    463.96
+                  ]
+                ]
+              }
+            ],
+            "source": "Yahoo Finance",
+            "source_url": "https://finance.yahoo.com/quote/SMH"
+          }
+        },
+        "deep_dive": {
+          "domain": "Science & frontier",
+          "state": "accelerating",
+          "headline": "A PSI system running a non-public Anthropic model proves a quantum conjecture open since 2008.",
+          "summary": "Physical Superintelligence said on November 6 that a research system it built, running a non-public Anthropic model, found a proof of the Aaronson-Ambainis conjecture on the third day of its run. Lean, a proof assistant that checks every step, accepted the proof, and the system then improved the result twice, with Lean accepting the final version. The conjecture concerns whether quantum computers can be exponentially faster than ordinary ones on random inputs, and proving it establishes that they cannot save exponentially many queries without structure. Guy Blanc, Jordan Docter, Carmen Strassle and Li-Yang Tan of Stanford, who proved a special case in August, called it 'a huge result'. The European Space Agency's Hera spacecraft also sent its first close-up of the Didymos system from 60 kilometres.",
+          "implication": "PSI credits David Turturean, a member of technical staff, with developing the research system, scoping the problem and reviewing the draft, and Jim Halverson, an advisor, with auditing the proof.",
+          "evidence": [
+            "PSI, a lab that calls itself Physical Superintelligence, says the run used instances of a non-public Anthropic model on its own infrastructure. It had a complete proof during the third day, and the system later improved the result twice. The paper and Lean proofs are public on GitHub.",
+            "The conjecture of Scott Aaronson and Andris Ambainis dates to 2008. It concerns the influence of a bit in a bounded polynomial: if the conjecture holds, an ordinary computer can predict a quantum computer's acceptance probability on random inputs with at most polynomially more queries.",
+            "Blanc, Docter, Strassle and Tan proved the conjecture's prediction for quantum algorithms that read their input in a fixed number of parallel rounds, in a paper posted in August 2026. They have since read PSI's proof and are writing a shorter exposition for experts.",
+            "The proof builds on a plan by Shachar Lovett and Jiapeng Zhang, replacing the one inequality they left as a conjecture with a new inequality proved in the manuscript. It also uses David Reimer's Butterfly Lemma and results of Agarwal and Ben-David, Kulkarni and Tal, and Filmus, Hatami, Keller and Lifshitz.",
+            "Separately, METR reported on November 5 that Anthropic's models improved about 1.9 times faster in the year to October 2026 than in the years before October 2025, roughly two years of progress in one. Its 95 percent confidence interval ran 1.5 to 2.8, it guessed that perhaps 80 percent of the current acceleration came from AI, and it saw no convincing bottleneck to further compounding over the next year, though it warned it may be missing some. It said Anthropic redacted a majority of the evidence it found most informative.",
+            "The European Space Agency's Hera spacecraft sent its first close-up of the Didymos system on November 5 from 60 kilometres, 196.8 million kilometres from Earth. Didymos is about 780 metres across and Dimorphos 151 metres; the 2022 DART impact shortened Dimorphos's orbit by 33 minutes, plus or minus one.",
+            "The FDA granted accelerated approval on November 5 to amivantamab plus hyaluronidase for recurrent or metastatic head and neck cancer after platinum and anti-PD-(L)1 therapy. The trial of single-agent amivantamab had a primary efficacy population of 102 patients, an overall response rate of 42 percent, 95 percent confidence interval 32 to 52, and 56 percent of responders lasting at least six months.",
+            "Orbital launch attempts reached 265 by mid November, against 272 by the same date in 2025, according to Flight Atlas, so physical throughput is flat while software capability compounds."
+          ],
+          "links": [
+            {
+              "points": 0,
+              "title": "A proof of the Aaronson-Ambainis conjecture (PSI, November 6)",
+              "url": "https://psi.inc/research/aaronson-ambainis/"
+            },
+            {
+              "points": 0,
+              "title": "Proofs and Lean formalisation (Physical Superintelligence, GitHub, November 6)",
+              "url": "https://github.com/physical-superintelligence/aaronson-ambainis"
+            },
+            {
+              "points": 0,
+              "title": "Independent assessment of AI R&D acceleration at Anthropic (METR, November 5)",
+              "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+            },
+            {
+              "points": 0,
+              "title": "Hera's first close-up view of the Didymos asteroids (ESA, November 5)",
+              "url": "https://www.esa.int/sl/articles/about-us/directorates/operations/space-safety/hera/hera-s-first-close-up-view-of-didymos-asteroids"
+            },
+            {
+              "points": 0,
+              "title": "FDA grants accelerated approval to amivantamab for head and neck cancer (FDA, November 5)",
+              "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-amivantamab-and-hyaluronidase-lpuj-recurrent-or-metastatic-head-and"
+            },
+            {
+              "points": 382,
+              "title": "AI is dramatically accelerating AI research right now (Planned Obsolescence, November 6)",
+              "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+            }
+          ]
+        },
+        "geopolitics": {
+          "state": "elevated",
+          "headline": "Democrats win the House and the Senate, and five Republican governorships fall.",
+          "summary": "Democrats won the House and the Senate in the midterm elections on November 3 and flipped five Republican governorships, with more than 61 million ballots cast before election day, 34 percent above 2022. Politico reported the party passed 250 House seats after two Republican incumbents lost. On election day Trump said the United States would stop providing $4 billion a year in military aid to Israel in 2027 and sell it arms instead, telling Fox News: 'You can consider it barter.' President Isaac Herzog announced on November 8 that 67 of the 120 Knesset members had recommended Gadi Eisenkot, handing him 28 days to form a government. In Bangladesh police injured more than 50 garment workers during a wage protest, and South Africa's ANC fell to 31.8 percent in local elections.",
+          "implication": "Herzog's office said one seven-member faction made no recommendation; the coalition clock gives Eisenkot four weeks, with a possible two-week extension.",
+          "evidence": [
+            "NPR reported on November 4 that Democrats won the House and the Senate; 62 percent of voters in the network/AP voter poll disapproved of Trump and two-thirds said his policies made economic conditions worse. Axios reported five governorships flipped (Georgia, Iowa, Nevada, Ohio, Texas) and that Democrats were set to flip 12 legislative chambers, break five Republican trifectas and 11 supermajorities.",
+            "Politico reported on November 5 that Democrats passed 250 House seats for the first time since 2008, after Mike Turner and NRCC chair Richard Hudson lost. Republicans spent more than $413 million on the Texas Senate race and lost it. More than 61 million ballots were cast before election day, 34 percent above 2022, per NPR and the University of Florida Election Lab.",
+            "Trump told Fox News by phone on November 3 that the US would stop providing $4 billion a year in aid to Israel in 2027 but would sell arms instead: 'You can consider it barter. You can consider military aid or cash... we give them $4 billion of things and money, and they don't need it.' The AP notes the US provided at least $21.7 billion in military assistance to Israel after October 2023.",
+            "The war continued through the election: US 'defensive' strikes hit Iranian positions on Qeshm Island on November 2, Iran's Mohsen Rezaei rejected a US counterproposal on November 3, Trump confirmed 'minor' strikes on November 6, and the IRGC lifted its self-declared 2,000-kilometre missile-range cap on November 7.",
+            "More than 50 people, including police and four journalists, were injured when police used tear gas and rubber bullets on garment workers at Savar on November 4. Workers are demanding a monthly minimum of Tk 30,000 against Tk 12,500; more than 500 factories shut at the peak, with operations disrupted at about 680 and the wage board agreed in principle to a raise without naming a figure.",
+            "South Africa's ANC fell to 31.8 percent nationally with 80 percent counted, almost 14 points below 2021, while the DA took 24.1 percent and Zuma's MK 9.3 percent on turnout of 54.5 percent. The ANC was projected to lose its status as the largest party in Gauteng and KwaZulu-Natal.",
+            "The Knesset results were certified on November 4, inside the week, and the Knesset was sworn in on November 10, after it. Netanyahu remains caretaker prime minister until a government is formed."
+          ],
+          "items": [
+            {
+              "title": "Democrats win the House and Senate, six takeaways (NPR, November 4)",
+              "url": "https://www.npr.org/2026/11/04/nx-s1-6022216/midterms-democrats-trump-republicans-analysis",
+              "comment": "Democrats won both chambers and five governorships, and 62 percent of voters in the network and AP voter poll disapproved of Trump, with two-thirds saying his policies made economic conditions worse. The result was a verdict on the party that took the country into the war, and it lost."
+            },
+            {
+              "title": "Trump says the US will halt $4 billion in aid to Israel as it shifts to selling weapons (AP via KCRA, November 3)",
+              "url": "https://www.kcra.com/article/trump-end-israel-aid-2027-military-weapons/74321969",
+              "comment": "Trump said the US will stop providing $4 billion a year in aid in 2027 and sell Israel arms instead, calling it 'barter'. The announcement came on election day, while US aircraft were still striking Iran."
+            },
+            {
+              "title": "Israel's president picks Gadi Eisenkot to form a government (ABC News Australia, November 8)",
+              "url": "https://www.abc.net.au/news/2026-11-08/israel-president-prime-minister-government-picked-eisenkot/107360472",
+              "comment": "Herzog's office said 67 of the 120 Knesset members recommended Eisenkot against 46 for Netanyahu, with one seven-member faction declining to recommend anyone. Eisenkot has 28 days, extendable by 14, to build a coalition; the Arab-led parties hold a record 19 seats and Yisrael Beiteinu says it will not sit with them."
+            },
+            {
+              "title": "Over 50 injured as garment workers clash with police in Savar (Financial Express, November 4)",
+              "url": "https://thefinancialexpress.com.bd/national/over-50-injured-as-garment-workers-clash-with-police-in-savar",
+              "comment": "Police used tear gas and rubber bullets on workers demanding a monthly minimum of Tk 30,000 against Tk 12,500, and more than 500 factories shut at the peak, with operations disrupted at about 680. The wage board agreed in principle to a raise without naming a figure, so the protests continued."
+            },
+            {
+              "title": "ANC faces a bruising defeat in South Africa's local elections (Guardian, November 6)",
+              "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+              "comment": "The ANC fell to 31.8 percent with 80 percent counted, almost 14 points below 2021, and was projected to lose its status as the largest party in Gauteng and KwaZulu-Natal. The DA took 24.1 percent and Zuma's MK 9.3 percent on turnout of 54.5 percent, the clearest sign yet that the dominant party has lost its base."
+            }
+          ],
+          "links": [
+            {
+              "points": 0,
+              "title": "Democrats win the House and Senate, six takeaways (NPR, November 4)",
+              "url": "https://www.npr.org/2026/11/04/nx-s1-6022216/midterms-democrats-trump-republicans-analysis"
+            },
+            {
+              "points": 0,
+              "title": "Democrats reach 250 House seats as Turner and Hudson lose (Politico, November 5)",
+              "url": "https://www.politico.com/live-updates/2026/11/05/congress/democrats-house-250-wins-01152314"
+            },
+            {
+              "points": 0,
+              "title": "Trump says the US will halt $4 billion in aid to Israel as it shifts to selling weapons (AP via KCRA, November 3)",
+              "url": "https://www.kcra.com/article/trump-end-israel-aid-2027-military-weapons/74321969"
+            },
+            {
+              "points": 0,
+              "title": "Israel's president picks Gadi Eisenkot to form a government (ABC News Australia, November 8)",
+              "url": "https://www.abc.net.au/news/2026-11-08/israel-president-prime-minister-government-picked-eisenkot/107360472"
+            },
+            {
+              "points": 0,
+              "title": "Democrats poised to break the Republicans' grip on statehouses (Axios, November 5)",
+              "url": "https://www.axios.com/2026/11/05/2026-midterms-democrats-state-legislatures-trifectas"
+            },
+            {
+              "points": 0,
+              "title": "Over 50 injured as garment workers clash with police in Savar (Financial Express, November 4)",
+              "url": "https://thefinancialexpress.com.bd/national/over-50-injured-as-garment-workers-clash-with-police-in-savar"
+            },
+            {
+              "points": 0,
+              "title": "ANC faces a bruising defeat in South Africa's local elections (Guardian, November 6)",
+              "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+            }
+          ]
+        },
+        "markets": {
+          "state": "risk-off",
+          "headline": "The midterms break the AI trade, and the Nasdaq falls 5.5 percent in a day.",
+          "summary": "On November 5 the Nasdaq Composite fell 5.52 percent to 24,315.00, its worst day since April 2025, and closed more than 10 percent below its October 6 record, while the S&P 500 fell 4.36 percent and the VIX rose 69.7 percent to 28.18. The Philadelphia semiconductor index fell 12.25 percent: Nvidia lost 9.26 percent, Micron 17.46 and AMD 17.26 after Qualcomm gave weak guidance. The trigger was political as much as industrial, with Democrats winning the House, the Senate and the Texas governorship and removing the political cover for data-centre construction; the Dow had risen 3.03 percent the day before. Brent fell 8.7 percent to $94.62 on November 4 after Vice President JD Vance blamed the war for the party's losses.",
+          "implication": "High-yield spreads ended the week two basis points tighter at 3.42 percent, and the five-year breakeven inflation rate fell 17 basis points to 2.29, so credit and inflation expectations did not confirm the equity panic.",
+          "evidence": [
+            "November 5 closes: S&P 500 -4.36 percent to 7,353.73; Nasdaq Composite -5.52 percent to 24,315.00; Dow -1,833.06 points, or -3.44 percent, to 51,523.06; Russell 2000 -4.45 percent. CNN put the market value lost at about $2.5 trillion. CNBC put the Magnificent Seven down more than $1 trillion and Nvidia down more than $440 billion.",
+            "The trigger: Qualcomm gave weaker guidance after the close on November 4; Democrats swept the House and Senate; Gina Hinojosa beat Greg Abbott in Texas, which Wells Fargo estimates accounts for about 27 percent of planned US data-centre gigawatts; and Bernie Sanders called for a national moratorium. Bank of America's Wamsi Mohan said the sell-off came from lower multiples, not lower earnings estimates.",
+            "November 4: Dow +1,569.40 points, or 3.03 percent, to 53,356.12, its best day since April 9, 2025; S&P 500 +1.58 percent to 7,688.62; Nasdaq +1.44 percent to 25,736.51. Apple closed at a record $354.33 with a market capitalisation above $5.12 trillion.",
+            "Rates, October 30 to November 6: 10-year 4.94 to 4.86 percent, 2-year 4.56 to 4.51, 30-year 5.31 to 5.26, 10-year TIPS 2.60 to 2.63, five-year breakeven 2.46 to 2.29, high-yield OAS 3.44 to 3.42. The 10-year traded at 4.84 percent on November 5, its lowest since September 9.",
+            "Fed pricing: CME FedWatch put a December quarter-point increase at 82.7 percent on November 4, 70.1 percent at midday on November 5 and 76.8 percent on November 6 after payrolls. Richmond Fed President Thomas Barkin and Cleveland Fed President Beth Hammack both spoke on November 5, each backing further hikes at a gradual pace.",
+            "Data: payrolls +165,000 against 59,000 expected, unemployment 4.1 percent, average hourly earnings +0.4 percent on the month and +3.1 percent on the year; August and September revisions added 84,000. ISM manufacturing 55.5 with prices at 75.2, ISM services 54.5, claims 189,000, University of Michigan sentiment 51.0.",
+            "Other central banks: the Bank of England raised Bank Rate 25 basis points to 4.00 percent on an 8-1 vote on November 5, with one member preferring 50 basis points; the Reserve Bank of Australia raised its cash rate to 4.85 percent on November 3.",
+            "The Treasury's quarterly refunding on November 4 offered $125 billion, with $58 billion of 3-year notes, $42 billion of 10-year notes and $25 billion of 30-year bonds to be auctioned on November 9, 10 and 12, all after the week.",
+            "Commodities: January Brent -13.3 percent to $98.32, January WTI -12.3 percent to $89.59, December gold +4.51 percent to $4,074.90, December silver +5.51 percent to $51.803, copper -3.72 percent to $6.218, cocoa -5.47 percent to $5,155."
+          ],
+          "signals": {
+            "trend": "DOWN",
+            "vol": 25.6,
+            "curve_bp": 35,
+            "gdpnow": 3.5,
+            "dollar": "Firmer (102.3)",
+            "credit": "Tighter (3.42%)",
+            "liquidity": "DRAINED",
+            "crypto": "SOFTER"
+          },
+          "links": [
+            {
+              "points": 0,
+              "title": "Nasdaq tumbles into correction territory on an AI tech wreck (CNBC, November 5)",
+              "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+            },
+            {
+              "points": 0,
+              "title": "US economy added 165,000 jobs in October; unemployment slips to 4.1 percent (CNBC, November 6)",
+              "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+            },
+            {
+              "points": 0,
+              "title": "Quarterly refunding statement (US Treasury, November 4)",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678"
+            }
+          ],
+          "chart": {
+            "title": "The bond market prices the war out",
+            "subtitle": "Five-year breakeven inflation rate, percent, September 1 to November 6",
+            "suffix": "%",
+            "decimals": 2,
+            "tick_decimals": 1,
+            "highlight_from": "2026-11-02",
+            "highlight_label": "this issue's week",
+            "series": [
+              {
+                "name": "Five-year breakeven",
+                "points": [
+                  [
+                    "2026-09-01",
+                    2.37
+                  ],
+                  [
+                    "2026-09-02",
+                    2.35
+                  ],
+                  [
+                    "2026-09-03",
+                    2.37
+                  ],
+                  [
+                    "2026-09-04",
+                    2.37
+                  ],
+                  [
+                    "2026-09-08",
+                    2.4
+                  ],
+                  [
+                    "2026-09-09",
+                    2.41
+                  ],
+                  [
+                    "2026-09-10",
+                    2.46
+                  ],
+                  [
+                    "2026-09-11",
+                    2.4
+                  ],
+                  [
+                    "2026-09-14",
+                    2.4
+                  ],
+                  [
+                    "2026-09-15",
+                    2.41
+                  ],
+                  [
+                    "2026-09-16",
+                    2.35
+                  ],
+                  [
+                    "2026-09-17",
+                    2.32
+                  ],
+                  [
+                    "2026-09-18",
+                    2.31
+                  ],
+                  [
+                    "2026-09-21",
+                    2.33
+                  ],
+                  [
+                    "2026-09-22",
+                    2.32
+                  ],
+                  [
+                    "2026-09-23",
+                    2.34
+                  ],
+                  [
+                    "2026-09-24",
+                    2.33
+                  ],
+                  [
+                    "2026-09-25",
+                    2.34
+                  ],
+                  [
+                    "2026-09-28",
+                    2.33
+                  ],
+                  [
+                    "2026-09-29",
+                    2.34
+                  ],
+                  [
+                    "2026-09-30",
+                    2.36
+                  ],
+                  [
+                    "2026-10-01",
+                    2.36
+                  ],
+                  [
+                    "2026-10-02",
+                    2.37
+                  ],
+                  [
+                    "2026-10-05",
+                    2.36
+                  ],
+                  [
+                    "2026-10-06",
+                    2.37
+                  ],
+                  [
+                    "2026-10-07",
+                    2.37
+                  ],
+                  [
+                    "2026-10-08",
+                    2.37
+                  ],
+                  [
+                    "2026-10-09",
+                    2.34
+                  ],
+                  [
+                    "2026-10-13",
+                    2.33
+                  ],
+                  [
+                    "2026-10-14",
+                    2.36
+                  ],
+                  [
+                    "2026-10-15",
+                    2.33
+                  ],
+                  [
+                    "2026-10-16",
+                    2.37
+                  ],
+                  [
+                    "2026-10-19",
+                    2.38
+                  ],
+                  [
+                    "2026-10-20",
+                    2.39
+                  ],
+                  [
+                    "2026-10-21",
+                    2.4
+                  ],
+                  [
+                    "2026-10-22",
+                    2.45
+                  ],
+                  [
+                    "2026-10-23",
+                    2.48
+                  ],
+                  [
+                    "2026-10-26",
+                    2.47
+                  ],
+                  [
+                    "2026-10-27",
+                    2.45
+                  ],
+                  [
+                    "2026-10-28",
+                    2.49
+                  ],
+                  [
+                    "2026-10-29",
+                    2.47
+                  ],
+                  [
+                    "2026-10-30",
+                    2.46
+                  ],
+                  [
+                    "2026-11-02",
+                    2.39
+                  ],
+                  [
+                    "2026-11-03",
+                    2.39
+                  ],
+                  [
+                    "2026-11-04",
+                    2.3
+                  ],
+                  [
+                    "2026-11-05",
+                    2.26
+                  ],
+                  [
+                    "2026-11-06",
+                    2.29
+                  ]
+                ]
+              }
+            ],
+            "source": "Federal Reserve Bank of St. Louis",
+            "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE"
+          }
+        }
+      },
+      "momentum": {
+        "weeks": [
+          "Nov 1",
+          "Nov 8"
+        ],
+        "series": {
+          "ai_compute": [
+            19,
+            17
+          ],
+          "geopolitics": [
+            2,
+            1
+          ],
+          "markets": [
+            1,
+            4
+          ]
+        }
+      },
+      "market_moves": [
+        {
+          "market": "Nasdaq Composite",
+          "dir": "down",
+          "detail": "Down 5.52 percent to 24,315.00 on November 5, its worst day since April 2025 and more than 10 percent below its October 6 record. About $2.5 trillion of market value was lost.",
+          "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"
+        },
+        {
+          "market": "Brent crude, January contract",
+          "dir": "down",
+          "detail": "Down 8.7 percent to $94.62 on November 4, its lowest settlement since August 31, after Vice President JD Vance blamed the Iran war for the Republican midterm losses. It recovered 3.8 percent to $98.29 on November 5 as tanker attacks continued.",
+          "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        }
+      ],
+      "commodities": {
+        "as_of": "2026-11-06",
+        "min_change": 2.5,
+        "headline": "Brent loses 13 percent on the election as gold and silver gain 4.5 and 5.5 percent.",
+        "summary": "January Brent fell 13.3 percent to $98.32 a barrel in the week to November 6, and January WTI fell 12.3 percent to $89.59, after Vice President JD Vance blamed the Iran war for the Republican midterm losses and traders bet on de-escalation. December gold rose 4.51 percent to $4,074.90 and December silver 5.51 percent to $51.803, a political-risk bid that arrived on November 4, the same day equities rallied. Copper fell 3.72 percent to $6.218 a pound and cocoa 5.47 percent to $5,155 a tonne, the growth side of the same trade. Tanker attacks lifted Brent 3.8 percent on November 5.",
+        "implication": "Eurasia Group cut its estimate of renewed US strikes on Iran to 60 percent from 65 percent and its estimate of a deal to 10 percent from 20 percent during the week.",
+        "items": [
+          {
+            "name": "Brent crude (January)",
+            "level": "98.32",
+            "change": "-13.3%"
+          },
+          {
+            "name": "WTI crude (January)",
+            "level": "89.59",
+            "change": "-12.3%"
+          },
+          {
+            "name": "Gold (December)",
+            "level": "4,074.90",
+            "change": "+4.51%"
+          },
+          {
+            "name": "Silver (December)",
+            "level": "51.803",
+            "change": "+5.51%"
+          },
+          {
+            "name": "Copper (December)",
+            "level": "6.218",
+            "change": "-3.72%"
+          },
+          {
+            "name": "Cocoa (December)",
+            "level": "5,155",
+            "change": "-5.47%"
+          }
+        ],
+        "links": [
+          {
+            "points": 0,
+            "title": "Oil jumps as investors assess the Iran war and tanker attacks (CNBC, November 5)",
+            "url": "https://www.cnbc.com/2026/11/05/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation.html"
+          },
+          {
+            "points": 0,
+            "title": "Weekly petroleum status report (EIA, November 4)",
+            "url": "https://www.eia.gov/petroleum/weekly/"
+          }
+        ],
+        "chart": {
+          "title": "Brent loses the war premium",
+          "subtitle": "January Brent futures, daily close, dollars a barrel, October 26 to November 6",
+          "prefix": "$",
+          "decimals": 2,
+          "tick_decimals": 0,
+          "highlight_from": "2026-11-02",
+          "highlight_label": "this issue's week",
+          "series": [
+            {
+              "name": "January Brent",
+              "points": [
+                [
+                  "2026-10-26",
+                  110.74
+                ],
+                [
+                  "2026-10-27",
+                  109.41
+                ],
+                [
+                  "2026-10-28",
+                  111.64
+                ],
+                [
+                  "2026-10-29",
+                  110.8
+                ],
+                [
+                  "2026-10-30",
+                  113.43
+                ],
+                [
+                  "2026-11-02",
+                  104.77
+                ],
+                [
+                  "2026-11-03",
+                  103.6
+                ],
+                [
+                  "2026-11-04",
+                  94.62
+                ],
+                [
+                  "2026-11-05",
+                  98.29
+                ],
+                [
+                  "2026-11-06",
+                  98.32
+                ]
+              ]
+            }
+          ],
+          "source": "Yahoo Finance",
+          "source_url": "https://www.ice.com/products/219/Brent-Crude-Futures"
+        }
+      },
+      "undercurrent": {
+        "label": "Undercurrent",
+        "headline": "Britain promised to make employers say what they pay; four of 27 EU states met the same rule's deadline.",
+        "summary": "On November 5 Andy Burnham's government said it would legislate to make salary information mandatory in British job adverts, citing a consultation in which 94 percent of respondents backed the requirement, including 93 percent of businesses. Ministers have not set the scope, the company-size threshold, the enforcement mechanism or a date; the promise is only that legislation comes 'as soon as possible'. The comparison is the point. The same obligation already exists in EU law, and its June 7 2026 transposition deadline passed with only Slovakia, Italy, Lithuania and Malta in force. Britain's own figures make the case: 41 percent of employers always publish a range, 18 percent a specific salary.",
+        "links": [
+          {
+            "points": 0,
+            "title": "New 'say what you pay' law to help young people into work (GOV.UK, November 5)",
+            "url": "https://www.gov.uk/government/news/new-say-what-you-pay-law-to-help-young-people-into-work"
+          },
+          {
+            "points": 629,
+            "title": "Employers to be forced to put salaries on job adverts, Andy Burnham announces (Guardian, November 6)",
+            "url": "https://www.theguardian.com/law/2026/nov/06/uk-employers-forced-put-salaries-job-adverts-andy-burnham"
+          },
+          {
+            "points": 0,
+            "title": "Directive (EU) 2023/970 on pay transparency (EUR-Lex, May 10 2023)",
+            "url": "https://eur-lex.europa.eu/eli/dir/2023/970/oj"
+          },
+          {
+            "points": 0,
+            "title": "EU pay transparency directive: practical briefing (Mayer Brown, June 30)",
+            "url": "https://www.mayerbrown.com/en/insights/publications/2026/07/eu-pay-transparency-directive-practical-briefing-for-international-employers"
+          }
+        ]
+      },
+      "wildcard": {
+        "topic": "Privacy and digital rights",
+        "headline": "Claude Code's 'don't ask again' wrote 1,379 real secrets into 1,122 public GitHub files.",
+        "summary": "Apiiro found 2,539 real secrets in 1,994 public GitHub repositories, most of them in files that record what coding agents were asked to run. The clearest case is Claude Code's own permission file: of 104,185 public copies of .claude/settings.local.json, 1,122 held a real secret, 1,379 in all, 636 provider keys and 743 passwords or tokens for public hosts, among them a database vendor's own cloud key with manage access and the owner password of a medical-records app's database. Approving a command with 'don't ask again' saves the whole command, secret included, to a file meant to stay on the laptop. Apiiro says a commit Claude co-authored changed the file in 539 of the 1,105 repositories with a real secret that it traced.",
+        "links": [
+          {
+            "points": 626,
+            "title": "Claude Code's 'Don't Ask Again' exposes passwords in 1,122 public GitHub files (Apiiro, November 5)",
+            "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+          },
+          {
+            "points": 626,
+            "title": "Hacker News thread with Anthropic's response (Hacker News, November 7)",
+            "url": "https://news.ycombinator.com/item?id=50407882"
+          },
+          {
+            "points": 0,
+            "title": "Gemini Apps privacy hub: who can review chats and what Keep Activity controls (Google, updated October 26)",
+            "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+          },
+          {
+            "points": 737,
+            "title": "Gemini trains on paid subscribers' chats unless Keep Activity is off (Hacker News, November 4)",
+            "url": "https://news.ycombinator.com/item?id=50363461"
+          },
+          {
+            "points": 535,
+            "title": "Users report OpenAI's Codex training toggle re-enabling itself (Hacker News, November 3)",
+            "url": "https://news.ycombinator.com/item?id=50352757"
+          },
+          {
+            "points": 557,
+            "title": "Apple's keyboard refuses to complete phrases on its 100,000-word grey list (Guardian, November 6)",
+            "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you"
+          }
+        ],
+        "items": [
+          {
+            "title": "Gemini trains on paid subscribers' chats unless Keep Activity is off (Hacker News, November 4)",
+            "url": "https://news.ycombinator.com/item?id=50363461",
+            "comment": "Google's own privacy page says Gemini Apps activity is used to train models when Keep Activity is on, reviewed chats are kept up to three years, and personal paid tiers get no exemption. Turning Keep Activity off drops future chats from training but saves them for only 72 hours."
+          },
+          {
+            "title": "Users report OpenAI's Codex training toggle re-enabling itself (Hacker News, November 3)",
+            "url": "https://news.ycombinator.com/item?id=50352757",
+            "comment": "Several users said the 'Improve the model for everyone' control had been switched back on after they opted out, with no OpenAI statement found. OpenAI's help centre still documents the opt-out and notes Codex has a separate environment-training setting."
+          },
+          {
+            "title": "Apple's keyboard refuses to complete phrases on its 100,000-word grey list (Guardian, November 6)",
+            "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+            "comment": "Researcher Derik Kauffman found a table encoded in iOS listing more than 100,000 words and phrases that predictive text will not complete, from drugs to 'Dictator Trump' and, in Hebrew, 'the occupied territories'. Apple says the keyboard avoids inappropriate suggestions and users can type anything out."
+          }
+        ]
+      },
+      "across_sources": {
+        "github_theme": "a week of plumbing and agents: llama-modchip running a 284B model on 64GB of RAM, KetchUp's open-source SketchUp alternative, and the Claude Code privacy issue that reached 1,615 points on Hacker News.",
+        "github": [
+          {
+            "title": "synchopate/llama-modchip",
+            "url": "https://github.com/synchopate/llama-modchip"
+          },
+          {
+            "title": "anthropics/claude-code issue #107757",
+            "url": "https://github.com/anthropics/claude-code/issues/107757"
+          }
+        ]
+      },
+      "briefs": [
+        {
+          "title": "Lifespan boosted by an unexpected form of bone manipulation (New Atlas, November 5)",
+          "url": "https://newatlas.com/fitness/bone-squeezing-extended-lives/",
+          "comment": "Rhythmically loading the shinbones of 20-month-old mice extended median lifespan 9.4 percent, about 80 days, and raised circulating PEDF; deleting the PIEZO1 channel in bone cells cut median lifespan about 11 percent in females and 13 percent in males."
+        },
+        {
+          "title": "FAA begins retiring floppy disks from air traffic control (FAA, November 5)",
+          "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air",
+          "comment": "The Enterprise Information Display System replaces four 1980s systems in more than 400 facilities, starting at Atlantic City, Nashville, Rochester and the Atlanta and Salt Lake City data hubs, with 435 sites due by the end of 2028."
+        },
+        {
+          "title": "Shop fridges across Europe hit by a fresh suspected cyber-attack (Guardian, November 2)",
+          "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+          "comment": "Chains in Belgium, Estonia, Ireland, Finland, Luxembourg, the Netherlands and Sweden reported cooling units pushed as high as 50C overnight, three weeks after an attack on up to 700 French stores."
+        },
+        {
+          "title": "Goodbye from Salon (Salon, November 5)",
+          "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+          "comment": "The magazine closes after 31 years, having launched in November 1995; the staff write that 'the business realities of independent digital journalism have changed profoundly' and that 'our publishing model is no longer sustainable'."
+        },
+        {
+          "title": "The end of Microsoft Research's AI Frontiers group (hunch.net, November 6)",
+          "url": "https://hunch.net/?p=13764006",
+          "comment": "John Langford writes that the roughly 50-person group he helped found in 2023 was folded into Microsoft AI in early September, and that he has left, and that every other member of its founding leadership appears to have done the same."
+        },
+        {
+          "title": "FDA grants accelerated approval to amivantamab for head and neck cancer (FDA, November 5)",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-amivantamab-and-hyaluronidase-lpuj-recurrent-or-metastatic-head-and",
+          "comment": "The trial of single-agent amivantamab had a primary efficacy population of 102 patients and reported an overall response rate of 42 percent, with 56 percent of responses lasting at least six months."
+        }
+      ],
+      "structural_regimes": [
+        {
+          "name": "Global monetary tightening",
+          "direction": "two central banks hike into an energy shock",
+          "read": "The Bank of England raised Bank Rate to 4.00 percent on an 8-1 vote and the Reserve Bank of Australia to 4.85 percent, both citing the energy shock, while US five-year breakevens fell 17 basis points to 2.29 and the ten-year yield fell eight basis points to 4.86. The Fed's December hike odds ended the week at 76.8 percent after payrolls, down from 82.7 percent before the rout.",
+          "spotlight": true,
+          "basket": [
+            {
+              "metric": "US ten-year Treasury yield",
+              "value": "4.86% on November 6, from 4.94% on October 30",
+              "url": "https://fred.stlouisfed.org/series/DGS10"
+            },
+            {
+              "metric": "US two-year Treasury yield",
+              "value": "4.51% on November 6, from 4.56%",
+              "url": "https://fred.stlouisfed.org/series/DGS2"
+            },
+            {
+              "metric": "Five-year breakeven inflation",
+              "value": "2.29% on November 6, from 2.46%",
+              "url": "https://fred.stlouisfed.org/series/T5YIE"
+            },
+            {
+              "metric": "High-yield option-adjusted spread",
+              "value": "3.42% on November 6, from 3.44%",
+              "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+            },
+            {
+              "metric": "Bank of England Bank Rate",
+              "value": "4.00% on November 5, from 3.75%",
+              "url": "https://www.bankofengland.co.uk/boeapps/database/"
+            }
+          ]
+        },
+        {
+          "name": "Energy as the inflation swing factor",
+          "direction": "the war premium comes out",
+          "read": "January Brent fell 13.3 percent to $98.32 and January WTI 12.3 percent to $89.59 as traders bet the election would push Washington toward ending the Iran war. The move came with tanker attacks still running near a record pace, so the price is a forecast about policy, not a ceasefire. US petrol averaged $4.153 a gallon in the week of the vote.",
+          "spotlight": true,
+          "basket": [
+            {
+              "metric": "Brent crude, January contract",
+              "value": "$98.32 on November 6, from $113.43 on October 30; -13.3%",
+              "url": "https://finance.yahoo.com/quote/BZF27.NYM"
+            },
+            {
+              "metric": "WTI crude, January contract",
+              "value": "$89.59 on November 6, from $102.21; -12.3%",
+              "url": "https://finance.yahoo.com/quote/CLF27.NYM"
+            },
+            {
+              "metric": "US average petrol price",
+              "value": "$4.153 a gallon in the week of November 2, from $4.269",
+              "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=W"
+            }
+          ]
+        },
+        {
+          "name": "AI capex and credit",
+          "direction": "the permission slip gets priced",
+          "read": "Voters in 40 of 41 data-centre measures backed restrictions, and the chip index fell 12.25 percent two days later. OpenAI answered with a community compact, while Anthropic bought 1.7 gigawatts of gas generation for about $3.4 billion and Nikkei put off-balance-sheet AI debt at about $3.2 trillion.",
+          "spotlight": false,
+          "line": "The constraints on the AI buildout are now local permits and gas turbines, and the financing behind both is still growing faster than the cash flow.",
+          "basket": [
+            {
+              "metric": "Data-centre measures against the industry",
+              "value": "40 of 41 on November 3",
+              "url": "https://news.ballotpedia.org/2026/11/06/voters-favored-limiting-data-center-development-in-40-of-41-local-ballot-measures-on-nov-3/"
+            },
+            {
+              "metric": "Off-balance-sheet AI debt",
+              "value": "about $3.2 trillion, up 90 percent in six months",
+              "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+            }
+          ]
+        },
+        {
+          "name": "Trade fragmentation",
+          "direction": "preferences are withdrawn",
+          "read": "The US suspended South Africa and Rwanda from AGOA duty-free access from January 1, 2027, citing trade barriers and human rights, ",
+          "spotlight": false,
+          "line": "AGOA access for South Africa and Rwanda ends on January 1, 2027, which turns a trade preference into another lever.",
+          "basket": [
+            {
+              "metric": "AGOA suspension",
+              "value": "South Africa and Rwanda from January 1, 2027",
+              "url": "https://www.reuters.com/world/africa/"
+            }
+          ]
+        },
+        {
+          "name": "AI sovereignty and open weights",
+          "direction": "the licence does the gating",
+          "read": "Kimi K3.1 Pro shipped 2.8 trillion parameters of open weights under a custom licence that requires a separate agreement for model-as-a-service businesses above $20 million in revenue. The weights are open; the business model is licensed.",
+          "spotlight": true,
+          "basket": [
+            {
+              "metric": "Kimi K3.1 Pro total parameters",
+              "value": "2.8 trillion, 104 billion active",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+            },
+            {
+              "metric": "Kimi K3.1 Pro downloads",
+              "value": "37,486 in the last month, read November 13",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro/tree/main"
+            },
+            {
+              "metric": "Model-as-a-service threshold",
+              "value": "$20 million rolling annual revenue",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro/raw/main/LICENSE"
+            }
+          ]
+        },
+        {
+          "name": "Dedollarization",
+          "direction": "gold rises with the dollar",
+          "read": "The dollar index rose to 102.30 from 101.88 and December gold rose 4.51 percent to $4,074.90, so the two legs of the debasement trade moved together for once. Real yields also rose three basis points, which the textbook says should have hurt gold.",
+          "spotlight": false,
+          "line": "Gold and the dollar rose together while real yields rose three basis points, a combination the textbook does not explain.",
+          "basket": [
+            {
+              "metric": "Dollar index (DXY)",
+              "value": "102.30 on November 6, from 101.88",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+            },
+            {
+              "metric": "Gold, December contract",
+              "value": "$4,074.90 on November 6, from $3,898.90; +4.51%",
+              "url": "https://finance.yahoo.com/quote/GC=F"
+            }
+          ]
+        }
+      ],
+      "watch_next": [
+        {
+          "when": "November 9",
+          "event": "COP31 opens in Antalya",
+          "note": "The climate summit runs to November 20, with the energy shock and the war's emissions as the backdrop."
+        },
+        {
+          "when": "November 10",
+          "event": "Anthropic is expected to set the price range for its IPO",
+          "note": "Buyers were discussing a $1.2 trillion to $1.3 trillion valuation on November 6, with some weighing $1.1 trillion."
+        },
+        {
+          "when": "November 16-20",
+          "event": "UN talks on autonomous weapons in Geneva",
+          "note": "The US, Russia and Israel are resisting a negotiating mandate for binding rules; 163 states backed a First Committee resolution pressing ahead with the process."
+        },
+        {
+          "when": "November 18-19",
+          "event": "APEC summit in Shenzhen",
+          "note": "Trump says he expects to meet Putin and Xi there; Beijing has not confirmed a three-way meeting."
+        },
+        {
+          "when": "November 24",
+          "event": "Quad9 stops serving French users",
+          "note": "The Paris Judicial Court ordered it to block domains beIN accuses of piracy or pay 1,000 euros a day."
+        },
+        {
+          "when": "November 29",
+          "event": "OPEC+ meeting and Spain's general election",
+          "note": "OPEC+ must set its 2027 framework; Spain votes with the energy shock still running."
+        },
+        {
+          "when": "December 8-9",
+          "event": "Federal Reserve decision",
+          "note": "CME FedWatch put a quarter-point increase at 76.8 percent on November 6."
+        },
+        {
+          "when": "December 14-15",
+          "event": "G20 summit at Doral",
+          "note": "The US hosts the leaders' meeting in Florida."
+        }
+      ],
+      "annotations": [
+        {
+          "terms": [
+            "midterm elections",
+            "midterms"
+          ],
+          "note": "US elections held two years into a presidential term. Every House seat, a third of the Senate and most governorships were on the ballot on November 3, 2026."
+        },
+        {
+          "terms": [
+            "Gadi Eisenkot"
+          ],
+          "note": "A former chief of the Israeli general staff who leads the Yashar party. President Herzog tasked him with forming a government after 67 Knesset members recommended him."
+        },
+        {
+          "terms": [
+            "Isaac Herzog",
+            "Herzog"
+          ],
+          "note": "Israel's president, whose role is largely ceremonial but who formally chooses the candidate best placed to form a government."
+        },
+        {
+          "terms": [
+            "Knesset"
+          ],
+          "note": "Israel's 120-seat parliament. A governing coalition needs 61 seats; Eisenkot's bloc won 48 and depends on Arab-led parties outside the cabinet."
+        },
+        {
+          "terms": [
+            "Aaronson-Ambainis conjecture"
+          ],
+          "note": "A 2008 conjecture in quantum complexity theory about whether quantum computers can be exponentially faster than ordinary ones on random inputs."
+        },
+        {
+          "terms": [
+            "Lean"
+          ],
+          "note": "A proof assistant that checks every step of a mathematical proof by computer, so a formalised result does not depend on a referee's reading."
+        },
+        {
+          "terms": [
+            "Physical Superintelligence",
+            "PSI"
+          ],
+          "note": "A research lab that built the system which found the Aaronson-Ambainis proof, running a non-public Anthropic model."
+        },
+        {
+          "terms": [
+            "Didymos",
+            "Dimorphos"
+          ],
+          "note": "A binary asteroid system. NASA's DART spacecraft struck Dimorphos in 2022 and shortened its orbit by about 33 minutes; ESA's Hera is now surveying the aftermath."
+        },
+        {
+          "terms": [
+            "amivantamab"
+          ],
+          "note": "A targeted cancer drug approved with hyaluronidase for recurrent or metastatic head and neck cancer after platinum and anti-PD-(L)1 therapy."
+        },
+        {
+          "terms": [
+            "overall response rate",
+            "response rate"
+          ],
+          "note": "The share of patients whose tumour shrinks by a defined amount. The head and neck trial reported 42 percent, with a wide confidence interval."
+        },
+        {
+          "terms": [
+            "Claude Code"
+          ],
+          "note": "Anthropic's command-line coding agent. Its permission file records commands a developer has approved so it will not ask again."
+        },
+        {
+          "terms": [
+            ".claude/settings.local.json"
+          ],
+          "note": "Claude Code's local permission file, meant to stay on the developer's machine. When it is committed to a public repository, every approved command, including any password in it, becomes public."
+        },
+        {
+          "terms": [
+            "Apiiro"
+          ],
+          "note": "A security vendor that scanned public GitHub repositories for secrets left by coding agents between November 1 and 3, 2026."
+        },
+        {
+          "terms": [
+            "Keep Activity"
+          ],
+          "note": "Google's setting that controls whether Gemini Apps activity is saved and used to train models. Turning it off limits future chats to 72 hours of storage."
+        },
+        {
+          "terms": [
+            "breakeven inflation",
+            "breakevens"
+          ],
+          "note": "The gap between a nominal Treasury yield and an inflation-protected one, a market measure of expected inflation over that horizon."
+        },
+        {
+          "terms": [
+            "VIX"
+          ],
+          "note": "The Cboe Volatility Index, derived from S&P 500 options and widely read as a gauge of expected stock-market turbulence."
+        },
+        {
+          "terms": [
+            "Bank Rate"
+          ],
+          "note": "The Bank of England's policy rate, raised to 4.00 percent on November 5, 2026, its first increase in over three years."
+        },
+        {
+          "terms": [
+            "Jensen Huang"
+          ],
+          "note": "Nvidia's founder and chief executive. The board opened an investigation on November 8 into a foreign intelligence effort aimed at him."
+        },
+        {
+          "terms": [
+            "Anthropic"
+          ],
+          "note": "The AI lab behind Claude. It filed to go public in October 2026, and buyers were discussing a lower valuation after the November selloff."
+        }
+      ]
     }
   ],
   "bsig_watch": [
