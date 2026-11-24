@@ -1,8 +1,9 @@
 # The Current Regime
 
-A weekly newsletter that reads the week's top Hacker News posts (plus GitHub
-trending and arXiv), names the **regimes** organizing the moment, verifies every
-claim against primary reporting, and tracks how those regimes change over time.
+A weekly newsletter that reads the week's top Hacker News posts alongside world
+and regional reporting, markets, primary data and specialist trade press, names
+the **regimes** organizing the moment, verifies every claim against primary
+reporting, and tracks how those regimes change over time.
 
 - **Public archive:** https://www.bwang.io/newsletter/
 - **Design reference:** bwang.io/elekid · accent `#1a7f4b`
@@ -13,8 +14,10 @@ The full curation and organization process lives in the skill at
 [`.claude/skills/current-regime/SKILL.md`](.claude/skills/current-regime/SKILL.md).
 In short, each week:
 
-1. `python3 sources.py` — pull HN (by points), GitHub trending, arXiv.
-2. `python3 classify.py` — tag stories into regimes, record momentum.
+1. `python3 sources.py` — pull HN (by points), world and regional reporting,
+   GitHub trending, prediction markets, AI analysis and the briefs sweep.
+2. `python3 momentum.py <monday> <sunday>` — classify the week's HN top 100 and
+   record regime momentum.
 3. `../ekans` `daily_check.py` — refresh the market regime (optional).
 4. Choose the live regimes; write a direct headline, a didactic paragraph, and a
    verifiable implication for each. Verify all claims against primary reporting.
@@ -90,7 +93,7 @@ python3 regime_engine.py      # the week-over-week diff + watchlist
 
 | Path | Purpose |
 |---|---|
-| `sources.py` | HN + GitHub trending + arXiv fetchers |
+| `sources.py` | feed fetchers: HN, world and regional reporting, markets, AI analysis, deep-dive and briefs |
 | `classify.py` | daily news to regime classifier |
 | `coverage.py` | coverage-debt ledger: which regions and topics past issues starved; WARNs and next wildcard shortlist |
 | `regime_state.json` | regime definitions, per-issue state, watchlist |

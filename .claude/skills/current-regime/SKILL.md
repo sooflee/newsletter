@@ -81,6 +81,29 @@ budget in House style.
    helpers, not in the default run: `fetch_edgar('"query"')` for SEC filings
    behind a story; `fetch_eia()` / `fetch_acled()` activate when EIA_API_KEY /
    ACLED_KEY+ACLED_EMAIL are exported.
+   **Source strategy beyond the feeds.** HN measures what builders are paying
+   attention to, not where the world is going. Direction shows up first in
+   primary data, specialist trade press and regional business press, so widen a
+   thin lane in that order:
+   - **Primary releases and calendars:** BLS, BEA, Census, FRED, EIA weekly
+     petroleum and grid data, Treasury auction results, CFTC positioning,
+     ECB/BoJ/BoE decisions, OPEC and IEA monthly reports. No headlines worth
+     quoting, but the numbers the lanes argue from.
+   - **Trade press:** DigiTimes and TrendForce (chips), Argus or Platts and
+     Lloyd's List (energy and shipping), Utility Dive and Canary Media (power and
+     data centres), CourtListener and the Federal Register (law). These lead the
+     wires by days.
+   - **Regional business press:** Business Day and TechCabal (Africa), The Ken and
+     Mint (South Asia), Bloomberg Línea (Latin America), Nikkei Asia and Caixin
+     (Asia). Rest of World, ChinaTalk and SemiAnalysis already sit in the
+     deep-dive feeds.
+   - **Framing only:** Reuters, AP, FT, Bloomberg, The Economist and WSJ. Read
+     them for the declarative actor + action + number headline, cite the free
+     primary source underneath, and never cite a paywalled article you did not
+     open.
+   Kalshi, a macro calendar and the trade-press feeds are not wired into
+   `sources.py` yet, so treat the list above as a manual research target and say
+   in the ledger which blind spot the week forced you into.
    **Then run the big-story sweep** (section below) so no week-defining story is left to
    whichever lane happened to look for it.
    **Then run `python3 coverage.py` and act on it the same way.** It reads every
