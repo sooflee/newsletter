@@ -26372,7 +26372,7 @@
         {
           "name": "Global monetary tightening",
           "direction": "hike odds rise even as the long end rallies",
-          "read": "The ten-year yield fell 23 basis points to 4.92 percent and the two-year 25 basis points to 4.63 percent in the selloff, while December hike odds rose to 92 to 96 percent and high-yield spreads widened 53 basis points. The Fed's target range stayed at 3.75 to 4.00 percent.",
+          "read": "The ten-year yield fell 23 basis points to 4.92 percent and the two-year 25 basis points to 4.63 percent in the selloff, while December hike odds rose to 92 to 96 percent on CME and Polymarket pricing and high-yield spreads widened 53 basis points. The dollar index rose 0.39 percent to 103.81, and December gold fell 9.54 percent to $3,515.40 even as the ten-year real yield fell 14 basis points to 2.77 percent, with High Ridge Futures' David Meger citing forced liquidation to cover losses in the equity selloff.",
           "spotlight": true,
           "basket": [
             {
@@ -26399,15 +26399,29 @@
               "metric": "Fed funds target range",
               "value": "3.75 to 4.00% on November 20, unchanged",
               "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+            },
+            {
+              "metric": "Dollar index (DXY)",
+              "value": "103.81 on November 20, from 103.41",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+            },
+            {
+              "metric": "Gold, December contract",
+              "value": "$3,515.40 on November 20, from $3,886.30; -9.54%",
+              "url": "https://finance.yahoo.com/quote/GC=F"
+            },
+            {
+              "metric": "Ten-year TIPS real yield",
+              "value": "2.77% on November 20, from 2.91%",
+              "url": "https://fred.stlouisfed.org/series/DFII10"
             }
           ]
         },
         {
-          "name": "Energy as the inflation swing factor",
-          "direction": "the war premium drains while tankers burn",
-          "read": "Brent's January contract fell 3.41 percent to $92.57 and March 3.39 percent to $87.73 even after two tankers were mined near Hormuz; retail petrol fell 4.76 percent to $3.805. Natural gas rose 5.60 percent.",
-          "line": "Oil fell for a third week as Hormuz flows returned to near pre-war levels, so the price is a forecast about supply, not the attacks.",
-          "spotlight": false,
+          "name": "Chokepoint economics",
+          "direction": "the price falls while the chokepoint risk rises",
+          "read": "Two tankers were mined near Hormuz and Houthi missiles were intercepted over Riyadh, yet Brent's January contract fell 3.41 percent to $92.57 and January WTI 4.45 percent to $83.41 on the week as flows through Hormuz returned to near pre-war levels and the AI selloff raised demand worries. Both benchmarks rose on Friday. Natural gas rose 5.60 percent and retail petrol fell 4.76 percent.",
+          "spotlight": true,
           "basket": [
             {
               "metric": "Brent crude, January contract",
@@ -26471,36 +26485,35 @@
             {
               "metric": "Inkling 2 Mini downloads",
               "value": "41,888 on November 24",
-              "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini/tree/main"
+              "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
             },
             {
               "metric": "Qwen4-Max parameters",
               "value": "2.4 trillion, released November 16",
-              "url": "https://qwen.ai/blog?id=qwen4-max"
+              "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max"
             }
           ]
         },
         {
-          "name": "Dedollarization",
-          "direction": "gold and the dollar part ways",
-          "read": "The dollar index rose 0.39 percent to 103.81 while December gold fell 9.54 percent to $3,515.40 and the ten-year real yield fell 14 basis points to 2.77 percent, so the usual hedge did not work.",
-          "line": "Gold fell with the dollar firm even as real yields eased, the mirror image of the week before.",
-          "spotlight": false,
+          "name": "Machine-checked knowledge",
+          "direction": "certification becomes the product",
+          "read": "Levent Alpöge's 17-million-line Lean proof of the Riemann Hypothesis was certified by the Lean FRO and Mathlib Initiative one day after it was posted. In the same week Anthropic published two black-hole results checked in Lean, and Architect Labs claimed a CPU architecture discovered, designed and verified by AI.",
+          "spotlight": true,
           "basket": [
             {
-              "metric": "Dollar index (DXY)",
-              "value": "103.81 on November 20, from 103.41",
-              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+              "metric": "Riemann Hypothesis formalisation",
+              "value": "certified November 21, 2026",
+              "url": "https://math.mit.edu/~drew/grh/"
             },
             {
-              "metric": "Gold, December contract",
-              "value": "$3,515.40 on November 20, from $3,886.30; -9.54%",
-              "url": "https://finance.yahoo.com/quote/GC=F"
+              "metric": "Claude black-hole results",
+              "value": "two results, Lean-checked in September",
+              "url": "https://www.anthropic.com/research/claude-black-hole-physics"
             },
             {
-              "metric": "Ten-year TIPS real yield",
-              "value": "2.77% on November 20, from 2.91%",
-              "url": "https://fred.stlouisfed.org/series/DFII10"
+              "metric": "Frostbite CPU",
+              "value": "designed and verified by AI, announced November 18",
+              "url": "https://architectlabs.com/blog/frostbite"
             }
           ]
         }
@@ -26670,6 +26683,33 @@
   ],
   "bsig_watch": [
     {
+      "trend": "The brittle stack",
+      "why_exponential": "Chase, the NSA's classified network, Apple services and Marriott all failed inside 48 hours, none of them a confirmed hack, while Nginx and OpenJDK disclosed remote-code-execution flaws and CrowdStrike was reported to be in talks to buy Zscaler for about $44 billion.",
+      "watch": "Watch outage minutes across the top cloud, payments and DNS providers, concentration in those providers, critical-vulnerability counts in network appliances, and cyber-insurance rates.",
+      "expressions": "AWS, Azure, Cloudflare, CrowdStrike, Zscaler, JPMorgan.",
+      "bsig_ref": "",
+      "status": "watch (operational risk)",
+      "new": true
+    },
+    {
+      "trend": "The judicial turn",
+      "why_exponential": "The ICJ found a state responsible for genocide for the first time, Kalshi faces 14 criminal charges in Utah after a federal judge said on November 20 that the state may enforce its gambling law, the UK tribunal forced the government to admit its secret Apple order, and Tajikistan deposited its ICC withdrawal.",
+      "watch": "Watch injunctions and criminal charges against platforms, treaty withdrawals, ICJ and ICC filings, and whether courts or regulators move first.",
+      "expressions": "Kalshi, Polymarket, Apple, Meta, the ICC and the ICJ.",
+      "bsig_ref": "",
+      "status": "watch (law)",
+      "new": true
+    },
+    {
+      "trend": "The answer economy",
+      "why_exponential": "A randomized experiment reported in November found Google's AI Overviews cut clicks to outside websites by about 40 percent on queries that trigger them, BugMeNot closed, and publishers are describing referral collapse as AI systems consume the open web and return fewer clicks.",
+      "watch": "Watch referral traffic from Google, AI Overview citation rates, crawl-to-referral ratios, publisher closures and paywall conversion.",
+      "expressions": "Google, OpenAI, Perplexity, Cloudflare and news publishers.",
+      "bsig_ref": "",
+      "status": "watch (attention)",
+      "new": true
+    },
+    {
       "trend": "AI datacenter power demand",
       "why_exponential": "The Better Data Center Project estimates that 87 percent of Anthropic's power will come from gas and 11 percent from coal in 2028, on 15 gigawatts of contracted compute.",
       "watch": "Goldman Sachs counts about 60 percent of US capacity scheduled for the next year arriving on time, against 72 percent historically. Watch the gap between contracted capacity and capacity that is actually energized.",
@@ -26733,39 +26773,12 @@
       "new": false
     },
     {
-      "trend": "Consumer-AI labs pivot into medicine",
-      "why_exponential": "Nothing new this week.",
-      "watch": "Watch for the first device clearance sought by a frontier lab rather than a medical-device company.",
-      "expressions": "Anthropic, Midjourney, large pharma, and gene-editing firms.",
-      "bsig_ref": "",
-      "status": "watch (AI in medicine)",
-      "new": false
-    },
-    {
       "trend": "AI's off-balance-sheet financing",
       "why_exponential": "SpaceX closed $40 billion of primarily callable GPU debt on October 25, reportedly through a special purpose vehicle, Meta disclosed about $825 billion of future leases and non-cancellable contracts, and CoreWeave carries about $50 billion of debt with bonds near 15 percent.",
       "watch": "Musk says debt markets have shut out companies without revenue outside AI data centers and that more than 200 neoclouds face 'death and consolidation'. Watch the next data-center lease and the first neocloud restructuring.",
       "expressions": "Oracle, Meta, CoreWeave, data-center debt vehicles, and Nvidia.",
       "bsig_ref": "",
       "status": "watch (financing)",
-      "new": true
-    },
-    {
-      "trend": "Robotaxis hit the regulation wall",
-      "why_exponential": "Nothing new this week.",
-      "watch": "Watch NHTSA recalls and freeway-service limits as fleets expand.",
-      "expressions": "Waymo, Tesla robotaxi, and NHTSA.",
-      "bsig_ref": "",
-      "status": "watch (autonomy)",
-      "new": false
-    },
-    {
-      "trend": "Water as a grid constraint",
-      "why_exponential": "Nothing new this week.",
-      "watch": "Watch whether cities require water figures in development agreements.",
-      "expressions": "European power prices, nuclear operators, and grid-interconnection queues.",
-      "bsig_ref": "AH-3",
-      "status": "watch (grid water)",
       "new": false
     },
     {
@@ -26775,7 +26788,7 @@
       "expressions": "MP Materials, Lynas, magnet makers, and defense suppliers.",
       "bsig_ref": "",
       "status": "watch (materials)",
-      "new": true
+      "new": false
     }
   ],
   "daily_counts": [

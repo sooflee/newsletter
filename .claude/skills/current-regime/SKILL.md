@@ -336,10 +336,13 @@ a missing credit, licence, alt, caption, dimensions or file.
 ## The structural picture (regime radar)
 
 Beyond the weekly regimes, each issue carries a radar of slow, **structural**
-regimes (Dedollarization, Monetary policy, Fragmentation, the AI buildout, AI
-sovereignty). A regime is a structural current, not an event ("Iran ceasefire
-holds" is an event). Read each from the **drift of a basket** of dated markets and
-hard data, not one headline. Store as
+regimes (global monetary tightening, including the dollar and gold; chokepoint
+economics; AI capex and credit; trade fragmentation; AI sovereignty and open
+weights; machine-checked knowledge). A regime is a structural current, not an
+event ("Iran ceasefire holds" is an event). Read each from the **drift of a
+basket** of dated markets and hard data, not one headline. Keep the radar at six
+unless a current is retired; the watchlist below carries candidates that are not
+yet structural. Store as
 `structural_regimes:[{name, direction, read, line?, basket:[{metric,value,url}], spotlight}]`.
 Spotlight every regime that moved this week. Give every other regime a one-sentence `line`;
 the Holding-steady list renders it, and without it only the first basket entry shows, which

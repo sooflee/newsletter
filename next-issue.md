@@ -28,6 +28,9 @@ Nov 24 Quad9 stops serving French users · Nov 26 US Thanksgiving · Nov 29 OPEC
 - Undercurrent 23 was infrastructure failures, non-AI. A non-AI undercurrent is still stronger.
 - Briefs: do not recycle the pancreatic-cancer, phone-ban, Toyota, UniCredit, Van Gogh or stablecoin items. The next set should come from the date-filtered sweep.
 
+## Radar and watchlist for 24
+The radar runs six regimes: Global monetary tightening (now includes the dollar, gold and real yields), Chokepoint economics, AI capex and credit, Trade fragmentation, AI sovereignty and open weights, and Machine-checked knowledge. Refresh every basket with a dated reading; if a regime did not move, give it a one-sentence `line` and leave it out of the spotlight. The watchlist leads with the brittle stack, the judicial turn and the answer economy; the AI-medicine, robotaxi and water cards were pruned. Add a new card only when the week supplies a dated fact and a measurable next step.
+
 ## Recurring refresh
 - Momentum prev from 23: ai_compute 9, geopolitics 1, markets 1.
 - Baskets from 23 (Friday November 20 unless noted): 10y 4.92, 2y 4.63, 30y 5.31, 3m 4.32, DFII10 2.77, T5YIE 2.18, HY OAS 3.76, DXY 103.81, VIX 35.89, gold Dec 3,515.40, silver 41.07, Brent Jan 92.57, Brent Mar 87.73, WTI Jan 83.41, copper 5.485, natgas 3.411, corn 434.50, wheat 574.25, cocoa 5,125, S&P 6,910.39, Nasdaq 22,617.73, BTC 58,798.98, petrol 3.805, Fed funds 3.75-4.00, Dec hike odds 92-96%.
